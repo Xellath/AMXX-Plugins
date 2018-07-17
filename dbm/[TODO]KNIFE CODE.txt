@@ -1,0 +1,206 @@
+	//noze
+
+	new max_knife[33]
+	new player_knife[33]
+	new Float:tossdelay[33]
+	
+
+	//noze
+	
+	register_touch("throwing_knife", "player", "touchKnife")
+	register_touch("throwing_knife", "worldspawn",		"touchWorld")
+	register_touch("throwing_knife", "func_wall",		"touchWorld")
+	register_touch("throwing_knife", "func_door",		"touchWorld")
+	register_touch("throwing_knife", "func_door_rotating",	"touchWorld")
+	register_touch("throwing_knife", "func_wall_toggle",	"touchWorld")
+	register_touch("throwing_knife", "dbmod_shild",		"touchWorld")
+	
+	register_touch("throwing_knife", "func_breakable",	"touchbreakable")
+	register_touch("func_breakable", "throwing_knife",	"touchbreakable")
+	
+	register_cvar("diablo_knife","20")
+	register_cvar("diablo_knife_speed","1000")
+	
+	register_touch("xbow_arrow", "player", 			"toucharrow")
+	register_touch("xbow_arrow", "worldspawn",		"touchWorld2")
+	register_touch("xbow_arrow", "func_wall",		"touchWorld2")
+	register_touch("xbow_arrow", "func_door",		"touchWorld2")
+	register_touch("xbow_arrow", "func_door_rotating",	"touchWorld2")
+	register_touch("xbow_arrow", "func_wall_toggle",	"touchWorld2")
+	register_touch("xbow_arrow", "dbmod_shild",		"touchWorld2")
+	
+	register_touch("xbow_arrow", "func_breakable",		"touchbreakable")
+	register_touch("func_breakable", "xbow_arrow",		"touchbreakable")
+	
+	register_cvar("diablo_arrow","120.0")
+	register_cvar("diablo_arrow_multi","2.0")
+	register_cvar("diablo_arrow_speed","1500")
+	
+	register_cvar("diablo_klass_delay","2.5")
+	
+	//Koniec noze
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////
+//                                  Noze                                      //
+////////////////////////////////////////////////////////////////////////////////
+public give_knife(id)
+{
+	new knifes = 0
+	if(player_class[id] == Ninja) knifes = 5 + floatround ( player_intelligence[id]/10.0 , floatround_floor )
+	else if(player_class[id] == Zabojca) knifes = 1 + floatround ( player_intelligence[id]/20.0 , floatround_floor )
+	
+	max_knife[id] = knifes
+	player_knife[id] = knifes
+}
+
+public command_knife(id) 
+{
+
+	if(!is_user_alive(id)) return PLUGIN_HANDLED
+
+
+	if(!player_knife[id])
+	{
+		client_print(id,print_center,"Nie masz juz nozy do rzucania") // You don't have any knives to throw
+		return PLUGIN_HANDLED
+	}
+
+	if(tossdelay[id] > get_gametime() - 0.9) return PLUGIN_HANDLED
+	else tossdelay[id] = get_gametime()
+
+	player_knife[id]--
+
+	if (player_knife[id] == 1) {
+		client_print(id,print_center,"Zostal ci tylko 1 noz!") // You have only one knife now
+	}
+
+	new Float: Origin[3], Float: Velocity[3], Float: vAngle[3], Ent
+
+	entity_get_vector(id, EV_VEC_origin , Origin)
+	entity_get_vector(id, EV_VEC_v_angle, vAngle)
+
+	Ent = create_entity("info_target")
+
+	if (!Ent) return PLUGIN_HANDLED
+
+	entity_set_string(Ent, EV_SZ_classname, "throwing_knife")
+	entity_set_model(Ent, "models/diablomod/w_throwingknife.mdl")
+
+	new Float:MinBox[3] = {-1.0, -7.0, -1.0}
+	new Float:MaxBox[3] = {1.0, 7.0, 1.0}
+	entity_set_vector(Ent, EV_VEC_mins, MinBox)
+	entity_set_vector(Ent, EV_VEC_maxs, MaxBox)
+
+	vAngle[0] -= 90
+
+	entity_set_origin(Ent, Origin)
+	entity_set_vector(Ent, EV_VEC_angles, vAngle)
+
+	entity_set_int(Ent, EV_INT_effects, 2)
+	entity_set_int(Ent, EV_INT_solid, 1)
+	entity_set_int(Ent, EV_INT_movetype, 6)
+	entity_set_edict(Ent, EV_ENT_owner, id)
+
+	VelocityByAim(id, get_cvar_num("diablo_knife_speed") , Velocity)
+	entity_set_vector(Ent, EV_VEC_velocity ,Velocity)
+	
+	return PLUGIN_HANDLED
+}
+
+public touchKnife(knife, id)
+{	
+	new kid = entity_get_edict(knife, EV_ENT_owner)
+	
+	if(is_user_alive(id)) 
+	{
+		new movetype = entity_get_int(knife, EV_INT_movetype)
+		
+		if(movetype == 0) 
+		{
+			if( player_knife[id] < max_knife[id] )
+			{
+				player_knife[id] += 1
+				client_print(id,print_center,"Obecna liczba nozy: %i",player_knife[id]) //You have actually X knives
+			}
+			emit_sound(knife, CHAN_ITEM, "weapons/knife_deploy1.wav", 1.0, ATTN_NORM, 0, PITCH_NORM)
+			remove_entity(knife)
+		}
+		else if (movetype != 0) 
+		{
+			if(kid == id) return
+
+			remove_entity(knife)
+
+			if(get_cvar_num("mp_friendlyfire") == 0 && get_user_team(id) == get_user_team(kid)) return
+
+			entity_set_float(id, EV_FL_dmg_take, get_cvar_num("diablo_knife") * 1.0)
+
+			change_health(id,-get_cvar_num("diablo_knife"),kid,"knife")
+			message_begin(MSG_ONE,get_user_msgid("ScreenShake"),{0,0,0},id)
+			write_short(7<<14)
+			write_short(1<<13)
+			write_short(1<<14)
+			message_end()		
+
+			if(get_user_team(id) == get_user_team(kid)) {
+				new name[33]
+				get_user_name(kid,name,32)
+				client_print(0,print_chat,"%s attacked a teammate",name)
+			}
+
+			emit_sound(id, CHAN_ITEM, "weapons/knife_hit4.wav", 1.0, ATTN_NORM, 0, PITCH_NORM)
+
+		}
+	}
+}
+
+public touchWorld(knife, world)
+{
+	entity_set_int(knife, EV_INT_movetype, 0)
+	emit_sound(knife, CHAN_ITEM, "weapons/knife_hitwall1.wav", 1.0, ATTN_NORM, 0, PITCH_NORM)
+}
+
+public touchbreakable(ent1, ent2)
+{
+	new name[32],breakable,ent
+	entity_get_string(ent1,EV_SZ_classname,name,31)
+	if(equali(name,"func_breakable"))
+	{
+		breakable=ent1
+		ent=ent2
+	}
+	else
+	{
+		breakable=ent2
+		ent=ent1
+	}
+	new Float: b_hp = entity_get_float(breakable,EV_FL_health)
+	if(b_hp>80) entity_set_float(breakable,EV_FL_health,b_hp-50.0)
+	else dllfunc(DLLFunc_Use,breakable,ent)
+	
+	entity_get_string(ent,EV_SZ_classname,name,31)
+	if(equali(name,"throwing_knife"))
+	{
+		emit_sound(ent, CHAN_ITEM, "weapons/knife_hitwall1.wav", 1.0, ATTN_NORM, 0, PITCH_NORM)
+	}
+	else remove_entity(ent)
+}
+	
+public kill_all_entity(classname[]) {
+	new iEnt = find_ent_by_class(-1, classname)
+	while(iEnt > 0) {
+		remove_entity(iEnt)
+		iEnt = find_ent_by_class(iEnt, classname)		
+	}
+}
+////////////////////////////////////////////////////////////////////////////////
+//                             koniec z nozami                                //
+////////////////////////////////////////////////////////////////////////////////
+
+I also thought about some changes in this knife system.
+Stamina could increase damage done by knives, and each 10lvl You should gain another knive.
+Could be fun and amazing ;D

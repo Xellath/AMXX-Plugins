@@ -1,0 +1,403 @@
+1 # Stalker [Rare] [Done]++++++++++++++++++++++
+
+Your hp is reduced by 95% 
+You are almoust invisible [99% - more than ninja]
+
+2 # Meekstone [Basic]
+
+You have a fake bomb and you can drop it on ground.
+When someone is near to it, it will explode. The power of explosion is depending on your intelligence
+
+public item_c4fake(id)
+{ 
+	if (c4state[id] > 1)
+	{
+		hudmsg(id,2.0,"Meekstone mozesz uzyc raz na runde!") //You can use Meekstone one time each round
+		return PLUGIN_CONTINUE 
+	}
+	
+	if (player_b_meekstone[id] > 0 && c4state[id] == 1 && is_user_alive(id) == 1 && freeze_ended == true)
+	{
+		explode(c4bombc[id],id,0)
+		
+		for(new a = 0; a < MAX; a++) 
+		{ 
+			if (is_user_connected(a) && is_user_alive(a))
+			{			
+				new origin1[3]
+				get_user_origin(a,origin1) 
+				
+				if(get_distance(c4bombc[id],origin1) < 300 && get_user_team(a) != get_user_team(id))
+				{
+					UTIL_Kill(id,a,"grenade")
+				}
+			}
+		}
+		
+		c4state[id] = 2
+		remove_entity(c4fake[id])
+		c4fake[id] = 0 
+	}
+	
+	if (player_b_meekstone[id] > 0 && c4state[id] == 0 && c4fake[id] == 0 && is_user_alive(id) == 1 && freeze_ended == true)
+	{
+		new Float:pOrigin[3]
+		entity_get_vector(id,EV_VEC_origin, pOrigin)
+		c4fake[id] = create_entity("info_target")
+		
+		entity_set_model(c4fake[id],"models/w_backpack.mdl")
+		entity_set_origin(c4fake[id],pOrigin)
+		entity_set_string(c4fake[id],EV_SZ_classname,"fakec4")
+		entity_set_edict(c4fake[id],EV_ENT_owner,id)
+		entity_set_int(c4fake[id],EV_INT_movetype,6)
+		
+		
+		new Float:aOrigin[3]
+		entity_get_vector(c4fake[id],EV_VEC_origin, aOrigin)
+		c4bombc[id][0] = floatround(aOrigin[0])
+		c4bombc[id][1] = floatround(aOrigin[1])
+		c4bombc[id][2] = floatround(aOrigin[2])
+		c4state[id] = 1
+	}
+	
+	return PLUGIN_CONTINUE 
+}
+3 # Magic Booster. [Unique][When You are paladin this should not drop or should multiple power of Your actual longjump]
+
+You can make a long/high jump each 3 seconds when you are ducking.
+
+public Prethink_froglegs(id)
+{
+	if (get_user_button(id) & IN_DUCK)
+	{
+		//start holding down button here, set to halflife time
+		if (player_b_froglegs[id] == 1) 
+		{
+			player_b_froglegs[id] = floatround(halflife_time())
+		}
+		else
+		{
+			if (floatround(halflife_time())-player_b_froglegs[id] >= 2.0)
+			{
+				new Float:fl_iNewVelocity[3]
+				VelocityByAim(id, 1000, fl_iNewVelocity)
+				fl_iNewVelocity[2] = 210.0
+				entity_set_vector(id, EV_VEC_velocity, fl_iNewVelocity)
+				player_b_froglegs[id] = 1
+			}
+		}
+	}
+	else
+	{
+		player_b_froglegs[id] = 1
+	}
+}
+4 # Vampiric Scepter [Done]++++++++++++++++++++++
+
+Basic : 10 % vampirism
+Rare : 20 % vampirism
+Unique : 15 % vampirism
+
+If You are a Necromancer, this item is still giving You boost, So You'll end up even with bigger vampirism
+
+5 # Sorcerers ring [Done]++++++++++++++++++++++
+
+Basic : 20% chance to respawn after death
+Rare : 30 % chance to respawn after death
+Unique : 25% chance to respawn after death
+
+6 # Orb [When You die Your body explode dealing damage][In a range area]
+
+Basic : Chaos Orb [50 + intelligence bonus][SMALL RANGE]
+Rare : Hell Orb [100 + intelligence bonus][HIGH RANGE]
+Unique : Devilish Orb [75 + intelligence bonus][MEDIUM RANGE]
+
+public add_bonus_explode(id)
+{
+	if (player_b_explode[id] > 0)
+	{
+		
+		new origin[3] 
+		get_user_origin(id,origin) 
+		explode(origin,id,0)
+		
+		
+		for(new a = 0; a < MAX; a++) 
+		{ 
+			if (!is_user_connected(a) || !is_user_alive(a) || player_b_fireshield[a] != 0 ||  get_user_team(a) == get_user_team(id))
+				continue	
+			
+			new origin1[3]
+			get_user_origin(a,origin1) 
+			
+			if(get_distance(origin,origin1) < player_b_explode[id] + player_intelligence[id]*2)
+			{
+				new dam = 75-(player_dextery[a]*2)
+				if(dam<1) dam=1
+				change_health(a,-dam,id,"grenade")
+				Display_Fade(id,2600,2600,0,255,0,0,15)				
+			}
+		}
+	}
+}
+
+public explode(vec1[3],playerid, trigger)
+{ 
+	message_begin( MSG_BROADCAST,SVC_TEMPENTITY,vec1) 
+	write_byte( 21 ) 
+	write_coord(vec1[0]) 
+	write_coord(vec1[1]) 
+	write_coord(vec1[2] + 32) 
+	write_coord(vec1[0]) 
+	write_coord(vec1[1]) 
+	write_coord(vec1[2] + 1000)
+	write_short( sprite_white ) 
+	write_byte( 0 ) 
+	write_byte( 0 ) 
+	write_byte( 3 ) 
+	write_byte( 10 ) 
+	write_byte( 0 ) 
+	write_byte( 188 ) 
+	write_byte( 220 ) 
+	write_byte( 255 ) 
+	write_byte( 255 ) 
+	write_byte( 0 ) 
+	message_end() 
+	
+	message_begin( MSG_BROADCAST,SVC_TEMPENTITY) 
+	write_byte( 12 ) 
+	write_coord(vec1[0]) 
+	write_coord(vec1[1]) 
+	write_coord(vec1[2]) 
+	write_byte( 188 ) 
+	write_byte( 10 ) 
+	message_end() 
+	
+	message_begin( MSG_BROADCAST,SVC_TEMPENTITY,vec1) 
+	write_byte( 3 ) 
+	write_coord(vec1[0]) 
+	write_coord(vec1[1]) 
+	write_coord(vec1[2]) 
+	write_short( sprite_fire ) 
+	write_byte( 65 ) 
+	write_byte( 10 ) 
+	write_byte( 0 ) 
+	message_end() 
+	
+	message_begin(MSG_BROADCAST,SVC_TEMPENTITY,{0,0,0},playerid) 
+	write_byte(107) 
+	write_coord(vec1[0]) 
+	write_coord(vec1[1]) 
+	write_coord(vec1[2]) 
+	write_coord(175) 
+	write_short (sprite_gibs) 
+	write_short (25)  
+	write_byte (10) 
+	message_end() 
+	if (trigger == 1)
+	{
+		set_user_rendering(playerid,kRenderFxNone, 0,0,0, kRenderTransAdd,0) 
+	}
+}
+
+7 # Devil spark [1/ X chance to have an instant kill from HeGrenade]
+
+Basic : Small Devil spark 1/7 chance to kill from hegranede]
+Rare : Big Devil spark 1/3 chance to kill from hegranede]
+Unique : Medium Devil spark 1/5 chance to kill from hegranede]
+
+8 # FireShield [RARE]
+
+FireShield is protecting You from dying from Orbs and 1/X HeGrenades.
+
+After You use it You are making blind ppl near You. But it cost You HP
+
+public item_rot(id)
+{
+	if (used_item[id])
+	{
+		RemoveFlag(id,Flag_Rot)
+		used_item[id] = false
+	}
+	else
+	{
+		if (find_ent_by_owner(-1,"Effect_Rot",id) > 0)
+			return PLUGIN_CONTINUE
+			
+		Create_Rot(id)
+		used_item[id] = true
+	}
+	
+	return PLUGIN_CONTINUE
+}
+
+public Create_Rot(id)
+{		
+	new ent = Spawn_Ent("info_target")
+	set_pev(ent,pev_classname,"Effect_Rot")
+	set_pev(ent,pev_owner,id)
+	set_pev(ent,pev_solid,SOLID_NOT)
+	AddFlag(id,Flag_Rot)
+	set_pev(ent,pev_nextthink, halflife_time() + 0.1)	
+			
+}
+
+public Effect_Rot_Think(ent)
+{
+	new id = pev(ent,pev_owner)
+	if (!is_user_alive(id) || !HasFlag(id,Flag_Rot) || !freeze_ended)
+	{
+		Display_Icon(id,0,"dmg_bio",255,255,0)
+		set_user_maxspeed(id,245.0+player_dextery[id])
+		
+		set_renderchange(id)
+		
+		remove_entity(ent)
+		return PLUGIN_CONTINUE
+	}
+	
+	set_user_maxspeed(id,252.0+player_dextery[id]+15)
+	Display_Icon(id,1,"dmg_bio",255,150,0)
+	set_renderchange(id)
+	
+	new entlist[513]
+	new numfound = find_sphere_class(id,"player",250.0,entlist,512)
+	
+	for (new i=0; i < numfound; i++)
+	{		
+		new pid = entlist[i]
+			
+		if (pid == id || !is_user_alive(pid))
+			continue
+			
+		if (get_user_team(id) == get_user_team(pid))
+			continue
+		
+		//Rot him!
+		if (random_num(1,2) == 1) Display_Fade(pid,1<<14,1<<14,1<<16,255,155,50,230)
+		
+		change_health(pid,-45,id,"world")
+		Effect_Bleed(pid,100)
+		Create_Slow(pid,3)
+		
+	}
+	
+	change_health(id,-10,id,"world")
+		
+	set_pev(ent,pev_nextthink, halflife_time() + 0.8)
+	return PLUGIN_CONTINUE
+}
+9 # Bronze Bag [It is giving You money each round, You can use it to protect Yourself
+
+Basic : Small Bronze Bag [It's giving You 500-1000 GOLD EACH ROUND] 
+Rare :  Big Bronze Bag [It's giving You 2000-3000 GOLD EACH ROUND] 
+Unique : Medium Bronze Bag [It's giving You 1000-1500 GOLD EACH ROUND] 
+
+
+public item_money_shield(id)
+{
+	if (used_item[id])
+	{
+		RemoveFlag(id,Flag_Moneyshield)
+		used_item[id] = false
+	}
+	else
+	{
+		if (find_ent_by_owner(-1,"Effect_MShield",id) > 0)
+			return PLUGIN_CONTINUE
+			
+		new ent = Spawn_Ent("info_target")
+		set_pev(ent,pev_classname,"Effect_MShield")
+		set_pev(ent,pev_owner,id)
+		set_pev(ent,pev_solid,SOLID_NOT)		
+		AddFlag(id,Flag_Moneyshield)	
+		set_pev(ent,pev_nextthink, halflife_time() + 0.1)
+		used_item[id] = true
+	}
+	
+	return PLUGIN_CONTINUE
+}
+
+public Effect_MShield_Think(ent)
+{
+	new id = pev(ent,pev_owner)
+	if (!is_user_alive(id) || cs_get_user_money(id) <= 0 || !HasFlag(id,Flag_Moneyshield) || !freeze_ended)
+	{
+		RemoveFlag(id,Flag_Moneyshield)
+		
+		set_renderchange(id)
+		
+		Display_Icon(id,0,"suithelmet_empty",255,255,255)
+		remove_entity(ent)
+		return PLUGIN_CONTINUE
+	}
+	
+	if (cs_get_user_money(id)-250 < 0)
+		cs_set_user_money(id,0)
+	else
+		cs_set_user_money(id,cs_get_user_money(id)-250)
+		
+	set_renderchange(id)
+	
+	Display_Icon(id,1,"suithelmet_empty",255,255,255)
+	
+	set_pev(ent,pev_nextthink, halflife_time() + 1.0)
+	return PLUGIN_CONTINUE
+}
+
+It is taking money away from You, after You use it , but it's reducing normal damage a lot
+
+10 # Mejai xD [Unique][Give better name lol xD]
+
+Each kill give You 5 points of every stat [Unless You have maximum points- there was such an item in diablo but I forget]
+The effect stack up to 10 times. [So You can have boost up to 50 points in each stat]
+When You die You are loosing 50% of them.
+
+
+11 # Bloody tear [Rare]
+
+It's blocking effect of regeneration/ heal in area for a while after You use it. [Effective against clerics that spam with Divine Resolution]
+
+12 # Knife Enchanchment [Unique]
+
+Your knife deal bonus damage + it have a chance to knockback oponnents a bit [Knockback codes are used in many zombie plague plugins]
+
+13 # Speed Melody [You can change this name xD]
+
+in a range of skill use it's is giving to You and teammates, short speed and gravity boost.
+
+14 # Helmet
+
+	
+Colossus Helmet
+[25% chance to avoid headshot attack][BASIC]
+
+Giant Helmet 
+[50% chance to avoid headshot attack][RARE]
+
+Titan Helmet
+[75% chance to avoid headshot attack][UNIQUE]
+
+15 # Gloves
+
+
+Bronze Gloves
+[10% lesser reload time][BASIC]
+
+Silver Gloves
+[25% lesser reload time][RARE]
+
+Gold Gloves
+[35% lesser reload time][UNIQUE]
+
+[Need to have a BAR when you have this item, so You excatly know when You reload]
+
+16 # Dagon [Basic item of every Diablo - not working well in standard Diablo Mod :(]
+
+You can use a lighting to punish Your opponents.
+
+Basic : 25 DMG + INT
+Advanced : 50 DMG + INT
+Master : 100 DMG + INT
+
+

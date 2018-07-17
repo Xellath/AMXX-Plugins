@@ -1,0 +1,237 @@
+[en]
+CONNECTED_FROM = has connected from
+DISCONNECTED_FROM = has disconnected from
+
+MONSTER = Monster
+MONSTER_SPAWNED = A boss was spawned nearby a player! No damage can be done to other players during this round.
+MONSTER_KILLED = %s managed to kill the beast and was rewarded with %i EXP!
+MONSTER_HUD_KILLED = %i out of %i has been found and killed!
+
+PET_PURCHASE_RANDOM = Purchase Random Pet
+PET_VIEW_AVAILABLE = View Available Pets
+PET_AVAILABLE = Available Pets
+
+PET_CURRENT_REMOVED = Your current pet was removed. Type 'pet' to be assigned a new one.
+PET_CANNOT_DEAD = You cannot be assigned a pet while dead.
+PET_PURCHASED = You purchased a %L - it will increase your %L by %i. It costed you %i mana points.
+PET_NOT_SUFFICIENT = You do not have a sufficient amount of mana points to purchase a pet.
+
+PET_COMMAND = pet
+PETS_COMMAND = pets
+
+PET_NAME_HEADCRAB = Headcrab
+PET_NAME_RAT = Rat
+PET_NAME_BAT = Bat
+PET_NAME_FROG = Frog
+PET_NAME_FLOATER = Floater
+PET_NAME_COCKROACH = Cockroach
+PET_NAME_HYPERBAT = Hyper Bat
+PET_NAME_MOM = Mom
+PET_NAME_GRUNT = Grunt
+PET_NAME_FISH = Fish
+PET_NAME_BABYHEADCRAB = Baby Headcrab
+PET_NAME_ROACH = Roach
+PET_NAME_GARGANTUAN = Gargantuan
+PET_NAME_BULLSQUID = Bull Squid
+PET_NAME_HOUNDEYE = Hound Eye
+PET_NAME_LOADINGMACHINE = Loading Machine
+PET_NAME_CONTROLLER = Controller
+
+GUILD_MEMBER_NONE = None
+GUILD_MEMBER_MEMBER = Member
+GUILD_MEMBER_ADMIN = Admin
+GUILD_MEMBER_LEADER = Leader
+
+GUILD_UPGRADES = Upgrades
+GUILD_BOOST = Boost
+GUILD_BACKTO = Back to
+
+GUILD_ITEM_EXP_BOOST = EXP Boost
+GUILD_ITEM_INT_BOOST = Intelligence Boost
+GUILD_ITEM_STA_BOOST = Stamina Boost
+GUILD_ITEM_DEX_BOOST = Dexterity Boost
+GUILD_ITEM_AGI_BOOST = Agility Boost
+GUILD_ITEM_REG_BOOST = Regeneration Boost
+
+GUILD_INVITE_MENU = Guild Invite Menu
+GUILD_INVITE_MENU2 = Invite a player to your guild:
+GUILD_KICK_MENU = Guild Kick Menu
+GUILD_KICK_MENU2 = Kick a member from your guild:
+GUILD_TRANSFER_MENU = Leadership Transfer Menu
+GUILD_TRANSFER_MENU2 = Transfer leadership of your guild to a member:
+
+GUILD_REQUEST = Guild Request
+GUILD_REQUEST_INV = has invited you to join his guild
+
+GUILD_MENU_YOUR = Your Guild
+GUILD_MENU_MEMBERSHIP = Membership
+GUILD_MENU_CREATE = Create Guild
+GUILD_MENU_CURRENT_AMOUNT = Current Amount of Guilds:
+GUILD_MENU_STATISTICS = Guild Statistics
+GUILD_MENU_INVITE = Invite Player to Guild
+GUILD_MENU_KICK = Kick Player from Guild
+GUILD_MENU_BOOSTS = Guild Boosts
+GUILD_MENU_ONLINE = Online Guild Members
+GUILD_MENU_ADMINISTRATE = Administrate Guild
+GUILD_MENU_LEAVE = Leave Guild
+GUILD_MENU_LIST = Guild List
+GUILD_MENU_TOTAL = Total Guilds
+
+GUILD_MENU_PROMOTE = Promote Users
+GUILD_MENU_PROMOTE2 = Promote a member to admin:
+GUILD_MENU_DEMOTE = Demote Admins
+GUILD_MENU_DEMOTE2 = Demote an admin to a regular user:
+GUILD_MENU_TRANSFER = Transfer Leadership
+GUILD_MENU_DISBAND = Disband Guild
+
+GUILD_MENU_HOURS = Hour(s) Remaining
+GUILD_MENU_WEEK = 1 Week Duration
+
+GUILD_PURCHASED_SUCC = Your guild leader has purchased a %s.
+GUILD_PURCHASED_ACTIVE = The boost is now activated and applies to all guild members. It will expire in 7 days.
+GUILD_NOT_ENOUGH_EXP = Your guild does not have enough experience to purchase this boost.
+
+GUILD_PROMOTED = %s has been promoted to an admin position.
+GUILD_DEMOTED = %s has been demoted from his admin position.
+
+GUILD_CANNOT_LEAVE = You cannot leave your guild while your are the leader. You can disband it, or transfer leadership.
+
+GUILD_NOGUILDS = There are no guilds yet.
+
+GUILD_ENTER_NAME = Enter a name for your guild.
+GUILD_SEE_HELP = Use the guild chat to chat with them (see help for info)!
+
+GUILD_JOINED = %s has joined the guild.
+GUILD_DECLINED = %s declined the guild invite.
+GUILD_KICKED = You were kicked from the guild.
+GUILD_KICKED2 = %s was kicked from the guild.
+
+GUILD_LEFT = You have left %s.
+GUILD_DISBANDED_SUCC = You successfully disbanded your guild.
+GUILD_DISBANDED_SUCC2 = %s has been disbanded by the guild leader.
+
+GUILD_TRANSFERRED_SUCC = Leadership of your guild was transferred successfully.
+GUILD_TRANSFERRED_SUCC2 = Leadership of the guild '%s' was transferred to you.
+
+GUILD_CANNOT_CREATE = You cannot create a guild while you're still in one.
+GUILD_ALREADY_EXISTS = Guild '%s' already exists.
+GUILD_CREATED_SUCC = You have successfully created the guild '%s'.
+
+[pl]
+CONNECTED_FROM = dolaczyl z
+DISCONNECTED_FROM = rozlaczyl sie
+
+MONSTER = Potwor
+MONSTER_SPAWNED = Potwory pojawil sie niedaleko graczy! Zadne obrazenia nie moga byc zadane podczas tej rundy.
+MONSTER_KILLED = %s zabil potwora i zdobyl %i EXP!
+MONSTER_HUD_KILLED = %i z %i potworow zostalo znalezionych i pokonanych!
+
+PET_PURCHASE_RANDOM = Zakup losowego zwierzaka
+PET_VIEW_AVAILABLE = Zobacz dostepne zwierzaki
+PET_AVAILABLE = Dostepne zwierzaki
+
+PET_CURRENT_REMOVED = Twoj aktualny zwierzak zostal usuniety. Wpisz 'pet' aby uzyskac nowego.
+PET_CANNOT_DEAD = Nie mozesz otrzymac zwierzaka kiedy jestes martwy.
+PET_PURCHASED = Kupiles %L - ulepszy on Twoja %L o %i punktow. Kosztowal Cie %i punkt many.
+PET_NOT_SUFFICIENT = Nie posiadasz wystarczajaco punktow many by zakupic zwierzaka.
+
+PET_COMMAND = zwierzak
+PETS_COMMAND = zwierzeta
+
+PET_NAME_HEADCRAB = Krab
+PET_NAME_RAT = Szczur
+PET_NAME_BAT = Nietoperz
+PET_NAME_FROG = Zaba
+PET_NAME_FLOATER = Sojka
+PET_NAME_COCKROACH = Robal
+PET_NAME_HYPERBAT = Wielki Nietoperz
+PET_NAME_MOM = Maly Pyzio
+PET_NAME_GRUNT = Goryl
+PET_NAME_FISH = Ryba
+PET_NAME_BABYHEADCRAB = Maly Krab
+PET_NAME_ROACH = Karaluch
+PET_NAME_GARGANTUAN = Ropucha
+PET_NAME_BULLSQUID = Kalamarnica
+PET_NAME_HOUNDEYE = Dziki Pies
+PET_NAME_LOADINGMACHINE = Maszyna
+PET_NAME_CONTROLLER = Kontroler
+
+GUILD_MEMBER_NONE = Brak
+GUILD_MEMBER_MEMBER = Czlonek
+GUILD_MEMBER_ADMIN = Admin
+GUILD_MEMBER_LEADER = Lider
+
+GUILD_UPGRADES = Ulepszenia
+GUILD_BOOST = Przyspieszacze
+GUILD_BACKTO = Wroc do
+
+GUILD_ITEM_EXP_BOOST = Przyspieszacz EXPA
+GUILD_ITEM_INT_BOOST = Usprawniacz Inteligencji
+GUILD_ITEM_STA_BOOST = Usprawniacz Wytrzymalosci
+GUILD_ITEM_DEX_BOOST = Usprawniacz Zwinnosci
+GUILD_ITEM_AGI_BOOST = Usprawniacz Zrecznosci
+GUILD_ITEM_REG_BOOST = Usprawniacz regeneracji
+
+GUILD_INVITE_MENU = Menu zapraszania do gildii
+GUILD_INVITE_MENU2 = Zapros gracza do swojej gildii:
+GUILD_KICK_MENU = Menu wyrzucania z gildii
+GUILD_KICK_MENU2 = Wyrzuc czlonka ze swojej gildii:
+GUILD_TRANSFER_MENU = Menu przenoszenia przywodctwa
+GUILD_TRANSFER_MENU2 = Wybierz osobe ktorej oddasz przywodctwo:
+
+GUILD_REQUEST = Prosba gildiowa
+GUILD_REQUEST_INV = zaprosil Cie abys dolaczyl do jego gildii
+
+GUILD_MENU_YOUR = Twoja gildia
+GUILD_MENU_MEMBERSHIP = Status
+GUILD_MENU_CREATE = Stworz gildie
+GUILD_MENU_CURRENT_AMOUNT = Aktualna liczba gildii:
+GUILD_MENU_STATISTICS = Statystyki gildii
+GUILD_MENU_INVITE = Zapros gracza do gildii
+GUILD_MENU_KICK = Usun gracza z gildii
+GUILD_MENU_BOOSTS = Usprawnienia gildii
+GUILD_MENU_ONLINE = Czlonkowie online
+GUILD_MENU_ADMINISTRATE = Zarzadzaj gildia
+GUILD_MENU_LEAVE = Wyjdz z gildii
+GUILD_MENU_LIST = Lista gildii
+GUILD_MENU_TOTAL = Liczba ogolna gildii
+
+GUILD_MENU_PROMOTE = Awansuj uzytkownika
+GUILD_MENU_PROMOTE2 = Awansuj z uzytkownika do admina:
+GUILD_MENU_DEMOTE = Zdegraduj admina
+GUILD_MENU_DEMOTE2 = Zdegraduj admina do normalnego uzytkownika:
+GUILD_MENU_TRANSFER = Oddaj przywodctwo
+GUILD_MENU_DISBAND = Rozwiaz gildie
+
+GUILD_MENU_HOURS = Godzin pozosotalo
+GUILD_MENU_WEEK = 1 tydzien (Czas trwania)
+
+GUILD_PURCHASED_SUCC = Przywodca twojej gildii zakupil %s.
+GUILD_PURCHASED_ACTIVE = Usprawniacz jest aktywny i dotyczy wszystkich czlonkow twojej gildii. Skonczy sie on za 7 dni.
+GUILD_NOT_ENOUGH_EXP = Twoja gildia nie ma wystarczajaco doswiadczenia by to zakupic.
+
+GUILD_PROMOTED = %s zostal awansowany do pozycji admina.
+GUILD_DEMOTED = %s zostal zdegradowany z pozycji admina.
+
+GUILD_CANNOT_LEAVE = Nie mozesz opuscic gildii kiedy jestes liderem. Mozesz ja rozwiazac, albo oddac przywodctwo.
+
+GUILD_NOGUILDS = Nie ma stworzonych zadnych gildii.
+
+GUILD_ENTER_NAME = Wpisz nazwe dla swojej gildii.
+GUILD_SEE_HELP = Uzywaj czatu gildiowego by z nimi pisac (zobacz zakladke pomoc)!
+
+GUILD_JOINED = %s dolaczyl do gildii.
+GUILD_DECLINED = %s odrzucil zaproszenie do gildii.
+GUILD_KICKED = Zostales wyrzucony z gildii.
+GUILD_KICKED2 = %s zostal wyrzucony z gildii.
+
+GUILD_LEFT = Opusciles gildie %s.
+GUILD_DISBANDED_SUCC = Rozwiazales swoja gildie.
+GUILD_DISBANDED_SUCC2 = Gildia %s zostala rozwiazana przez lidera.
+
+GUILD_TRANSFERRED_SUCC = Przywodctwo w Twojej gildii zostalo przeniesione prawidlowo
+GUILD_TRANSFERRED_SUCC2 = Przywodctwo w gildii '%s' zostalo powierzone Tobie.
+
+GUILD_CANNOT_CREATE = Nie mozesz stworzyc gildii, kiedy juz w jednej jestes.
+GUILD_ALREADY_EXISTS = Gildia '%s' juz istnieje.
+GUILD_CREATED_SUCC = Udalo Ci sie stworzyc gildie '%s'.

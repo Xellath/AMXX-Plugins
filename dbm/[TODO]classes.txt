@@ -1,0 +1,56 @@
+Just bunch of ideas.
+Let's take those that are good.
+As You said before every new classes should be paid, so You should decide which one and how much :D
+
+Frozen Golem
+
+- He has 1/5 chance to slow down his enemies and make them screen a little blue
+- On knife he is loading frozen bullets. [Works same as BERSERKER!]. Every bullet is freezing oponnents for a half of second
+
+Code can be taken from frostnade. Whole code will fit this class.
+LINK : http://forums.alliedmods.net/showthread.php?t=41126
+
+Dragon Slayer
+
+- He has 1/3 chance to set enemy on fire. After being set on fire enemy is loosing 2hp + [intelligence bonus 15 int = 1hp] each second for 5sec
+- On knife he can use Dragon Breath. It is power similar to Flamethrower. He is starting to emit flames to the place where he is aiming. The breath lasts for 5 sec, and is consuming 5hp [10int = 1 hp more] from target each second
+
+http://forums.alliedmods.net/showthread.php?t=182406
+http://forums.alliedmods.net/showthread.php?t=79792 
+
+Teemo
+
+- His attacks are poisoning enemies and dealing damage in time [a little but increasing with his intelligence level]
+- On knife he can load mushrooms[visible only for his team traps]. When someone step on it it's exploding with a freeze effect [frost nova], and dealing damage in time depending on intelligence
+[3 mushrooms per round, and another one each 50int]
+
+
+http://forums.alliedmods.net/archive/index.php/t-75516.html
+http://forums.alliedmods.net/showthread.php?p=665753
+
+Barbarian
+
+- The more he fight the more damage bonus he have [Counting his shoots, item use and skill use][Increasing with STR or other stat]
+- On knife he can load Wild Roar [You can create better name xD]
+It's dealing dmg to every opponent in range for a ammount of time, the damage is depending on intelligence of user.
+Need a sound also xD
+
+http://amxx.pl/topic/61093-perk-fala-smierci/
+
+[AMAZING CLASS]Thief [He can always run from hard situations!]
+
+- He can use teleport with 20 sec cd [More int less cd I guess][Right mouse button]
+- When he load a knife he can teleport to spawn and regenerate 30% of his max hp][High loading time][Max 2 times each round]
+
+Warrior
+
+- None abilities or powers of items that deal damage works on him [No Arch, Teemo Mushrooms, Wild roar or Mage fireball]
+However he can still be freezed, blinded etc [If it would be hard than make him immune to everything]
+- On knife he can load WarCry. 
+When he use it and there are nearby enemies they are pushed away from him [Knockback effect] and shocked for a second [ShakeScren]
+
+[AMAZING CLASS]Swordsman
+
+- The less hp he have the more attack speed with weapons he have
+- On knife he can load knives that he can throw on his opponnents [This was supposed to be a ninja power, but after all it can be power of swordsman]
+Max 5knives multipled with INT

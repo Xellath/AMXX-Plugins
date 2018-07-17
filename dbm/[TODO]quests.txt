@@ -1,0 +1,37 @@
+1 # Play 20 hours 
+2 # Play 200 hours
+3 # Kill 50 monsters
+4 # Play 50 hours in nighttime
+5 # Kill 5 players in one round
+6 # Kill 10 players in one round
+7 # Kill 500 players
+8 # Kill 5000 players
+9 # Kill someone who is admin/vip
+10 # Plant bomb 20 times
+11 # Defuse bomb 20 times
+12 # Create o party [Easy quest just to teach players to create party]
+13 # Join a guild
+14 # Survive monster event
+15 # Buy a pet
+16 # Became a VIP [One time quest]
+17 # Kill someone who have actually highest lvl on server
+18 # Kill 50 players with knife [Working when You aren't ninja/assasin]
+19 # Became a player with most kills at end of the map
+20 # Have more than 10 kills , with 0 deaths 
+21 # Heal your teammates 50 times [For cleric xD]
+22 # Revive your teammates 50 times [For necromancer]
+23 # Die 10 times [For newbies xD]
+24 # Deal 100 damage with Your glock/usp [For newbies]
+25 # Win 5 guild wars
+26 # Kill 3 players with Arch Angel Wings 
+27 # Deal 50000 dmg with AWP / Scout
+28 # Deal 1500 thought the wall
+29 # Kill 50 ppl with xbow
+30 # Kill admin with immunity flag
+
+
+*There should be a section to set ammount of exp for quests
+*You should be able to check how many quests players have completed
+
+Those are just propositions.
+We could think about some crazy quests :D

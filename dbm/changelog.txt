@@ -1,0 +1,195 @@
+17/8/2013:
+Core:
+- Fixed the rare occassions where no item was dropped upon death.
+- Fixed double experience gained from planting/defusing bomb (team bonus).
+
+12/8/2013:
+Core:
+- Changed extra damage and damage reduction (Agility and Dexterity) scaling down to 0.1 respectively 0.2 from (total / 30 * 10).
+
+
+18/4/2013:
+Core:
+- Fixed lags when attacking an enemy (saving revised).
+- Added DBM_CheckLevel( ) native. Note: Includes updated.
+- Bind Menu should now be working.
+
+Addons:
+- Fixed not being able to see your own messages in the chat (Chat Tags).
+- Fixed lags from attacking a monster (added DBM_CheckLevel support - note: includes updated).
+
+Classes:
+- Introduced a new way of restricting weapons for ninja. (client_buy - new plugin).
+- Changed hooking of PrimaryAttack so it ignores bombs and knifes. (Ninjas will now be able to plant).
+
+7/2/2013:
+Addons:
+- New Plugin: Class/Level Chat Tags. Prints current class and level when user types something in chat. Eg: *DEAD* [Mage][31] Xellath : Hello sir!, *SPEC* [Mage][31] Xellath : Hello sir!, (Terrorist) *DEAD* [Mage][31] Xellath : Hello sir!
+
+Items:
+- Fixed some typos.
+- New Plugin: Helmets. Items (3); provides the possibility (x%) to block headshots.
+- New Plugin: Gloves. Items (3); increases reload speed by x%.
+
+Classes:
+- Changed Berserker TraceLine hook to post for pTR_Hit to function (noticed while testing new helmet items).
+- Fixed typo.
+
+Quests:
+- Fixed a few typos.
+
+Lang updated.
+
+5/2/2013:
+Core:
+- Changed when "first time" message is printed.
+- Changed some of the formatting in Class Selection Menu if PlayerClass equals None.
+
+Items:
+- Fixed ITEM_NOT_READY formatting.
+- Fixed possible Stalker bug, allowing player to gain more health than his maximum HP by dropping the item and picking it up again.
+
+1/2/2013:
+Core:
+- Added "first time" message for new players.
+
+Addons:
+- Experience from Monsterkills will now be shared between party members.
+
+Classes: 
+- Assassin language problem fixed.
+
+31/1/2013:
+Core:
+- Fixed issue where unique item drops upon death.
+- Fixed a major menu (most menus, items, mana, descs and questlog) issue where you could not select any option that surpassed 9+.
+- Attempted fix implemented regarding loading bar (casting), but cannot guarantee the bar not being stuck sometimes, due to the HUD being client side.
+
+Addons:
+- Fixed a major menu (guild) issue where you could not select any option that surpassed 9+.
+
+Classes:
+- Added ScreenShake and bleed on attack for Monk class.
+
+Items:
+- Fixed Arch Angel Wings gravity bug. Works as intended now.
+- Fixed Sorcerers Ring allowing respawn without the item.
+
+2/11/2012:
+Quests:
+- Attempt to fix lag issues: revised the saving for quests.
+
+Items:
+- New Plugin: Arch Angel Wings. Items (2); allows you to perform stomps and defy gravity.
+- Made some changes to cooldown scaling in Knife Ruby.
+
+Core:
+- Lowered the ability cooldown intelligence scaling by a moderate amount.
+
+17/10/2012:
+Quests:
+- New Plugin: Nubcake. Quest; die 10 times.
+
+Items:
+- New Plugin: Sorcerer Rings. Items (3); provides an x% chance to respawn upon death.
+
+Core:
+- Added attributes scaling in messages and/or text (lookup and class + ability descriptions specifically). NOT FULLY DONE - Note to self: dbm_const.inc
+
+15/10/2012:
+Quests:
+- New Plugin: Player Kills. Quests (2); kill 500 respectively 5000 players.
+- New Plugin: Plantage/Defuser. Quests (2); plant 50 bombs and defuse 50 bombs.
+- New Plugin: Playtime. Quests (3); three plateaus: 20, 200 and 500 hours.
+
+6/10/2012:
+Classes:
+- Fixed Ninja purchasing through cl_buy forward. Check out orpheu sigs.
+
+29/9/2012:
+Items:
+- New Plugin: Stalker. Item; decreases your health to 5% of max health, but makes you invisible.
+- New Plugin: Scepters. Item; allows you to lifesteal a percentage of of damage done. 10, 15 and 20%.
+
+27/9/2012:
+Classes:
+- Fixed text formatting for Assassin skill.
+
+Quests:
+- New Plugin: Monsterkill. Quest; kill 50 monsters.
+
+22/9/2012:
+Classes:
+- Fixed revive spam for Necromancers. Fake corpse should now be removed.
+
+8/9/2012:
+Classes:
+- Made some changes to how Berserkers Fury Dodge work, as well some extra messages.
+- Fixed overlapping text prints when attacked with Fury Dodge active.
+- Secondary attack (knife specifically) should now trigger a Fury Dodge stack.
+
+Addons:
+- Fixed language issue with connection print.
+- Fixed Guild Chat double tagging.
+
+Core:
+- Fixed DBM_GetClassLevel: will now work as intended.
+- Fixed Party Chat double tagging.
+- Added an update to set current health and max health if statpoints were distributed within freezetime.
+
+7/9/2012:
+Classes:
+- Fixed Berserker crash issue (FM_TraceLine related). Note: REQUIRES fun module to be loaded at ALL times (will otherwise throw error: Bad Entity in IndexOfEdicts).
+- Changed method to instantly kill enemy for Assassin's passive. Instead of triggering extra insane damage, it nows just instantly forwards a death (Ham_Killed).
+
+Addons:
+- Fixed Guild Chat abusage (%s printing).
+- Fixed Aim Info bad load.
+- Fixed Aim Info formatting issue.
+
+Core:
+- Fixed Party Chat abusage (%s printing).
+- Added native: DBM_SubExperienceMultiplier - see dbm_api.inc for reference.
+- Added lang: QUEST_EXP_RECEIVED - see dbm_core_lang.txt for translations
+- Added optional cvars to regulate EXP and Mana rewards for completing quests. 
+	dbm_exp_quest: default 500
+	dbm_mana_quest: default 3
+
+6/9/2012:
+Classes:
+- Changed Fireball scaling (scaling down to 0.5 per INT). Base damage down to 15 from 35.
+- Revised Cleric healing (scaling down to 0.1).
+- Monk's passive to disarm has been changed, should now drop current weapons and change to knife.
+- Monk's Inner Peace now displays an aura and shakes the screen for attacking players.
+
+Addons:
+- Added Member Status to guild chat. Example: (Guild) [Leader] Xellath : Good job, man!
+- /guild should now work properly, and not execute a guild message.
+- New Plugin: Aim Info. Shows Class and Level for friendly and enemy targets (in StatusValue).
+
+Core:
+- Unique items are no longer dropped upon death. It now randomizes a new item. Unique items are kept until dropped or destroyed. Note: Unique items can still be dropped using /dropitem.
+- /party should now work properly, and not execute a party message.
+- Skill loading for each class should now reset on spawn.
+
+19/8/2012:
+DBM underwent a major update last night. I suggest you copy the new plugins. Most bugs should be gone. Report back if something is malfunctioning. There is also one new line to translate (see dbm_core_lang.txt). Further adjustments can now be done in the include-file: dbm_const.inc.
+
+List of fixed issues:
+- Party and Guild Chat now works properly.
+- Core was restructured to allow removing of addons, as it depended on them to load before.
+- Multiple natives were changed and a few new ones were added.
+- Major crash bug regarding Berserkers ability was fixed.
+- Berserkers Fury Dodge should now be loading properly.
+- Ninja bonus movement speed should now reset immediately when Rush ends.
+- Adjusted several classes stat scaling, making most of them balanced.
+- Several formatting errors.
+
+Added features:
+- Option to add all statpoints, not just 1, 5 or 10 at a time.
+- Language menu in the help menu.
+- Pet follower cost can now be changed with a cvar (dbm_petfollower_cvar, default: 3).
+- Clerics can now use weapons to heal fellow teammates by shooting towards them. All weapons, except for knives, will heal for 50% of the damage done -- whilst knives will heal for 100% of damage done.
+- Monks have a 20% chance to disarm enemies when attacking.
+
+I will carry on with requests shortly. Please report back if you find anything -- also, please screenshot it; I found some of the reports quite hard to grasp.

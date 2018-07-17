@@ -1,0 +1,27 @@
+{
+    "name"      : "BuyItem",
+    "library"   : "mod",
+    "arguments" :
+    [
+        {
+            "type"  : "CBasePlayer *"
+        },
+        {
+            "type"  : "int"
+        }
+    ],
+    "identifiers":
+    [
+        {
+            "os"    : "windows",
+            "mod"   : "cstrike",
+            "value" : [0x53,0x56,0x8B,0x74,"*","*",0xBB,"*","*","*","*",0x57,0x53,0x8B,0xCE,0xE8,"*","*","*","*",0x84,0xC0,0x0F,0x84,"*","*","*","*",0x8B]
+        },
+        {
+            "os"    : "linux",
+            "mod"   : "cstrike",
+            "value" : "BuyItem__FP11CBasePlayeri"
+        }
+    ]
+}
+    

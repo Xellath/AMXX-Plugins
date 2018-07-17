@@ -1,0 +1,58 @@
+=================================================================================================================
+=================================================================================================================
+
+LOGIN SYSTEM
+
+I thought about something like that for a while.
+I've seen a lot of such a system lately.
+Every good Diablo have one at last.
+
+My idea is :
+
+When I'm joining server it's showing me menu with login/register
+
+1 # Login [If You are not logged You can't pickup class or neither level up!]
+2 # Register
+3 # Help
+
+
+case 1 # 
+ID / PW
+
+case 2 # 
+
+ID / PW
+
+[Message : Don't not forget Your password.
+It it coded so it won't be recovered]
+
+This can be made this way, but if You know method with password in config it it also way to go.
+
+case 3 # 
+
+Some shitty message to help players in login
+
+=================================================================================================================
+=================================================================================================================
+
+If You are steam You should have auto login.
+Non steam players should login every map I guess
+
+
+It's just a proposition. It can be easier setinfo _res  [config] system.
+It doesn't matter.
+It must be easy for players dat's all :D
+
+You should still level up by your nickname / steamid [for steam], this is just a security case
+
+=================================================================================================================
+=================================================================================================================
+VIP
+
+* 25 % DISCOUNT IN MANA SHOP
+* VIP Tag in chat [It will look like this [VIP][Class][Level]NAME : MESSAGE
+* Potion of immunity in mana shop
+* Buying EXP for mana
+
+
+This is not ready yet.

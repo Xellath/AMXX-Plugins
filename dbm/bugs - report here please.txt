@@ -1,0 +1,58 @@
+~ I fixed most of them, check the changelog. Bugs left: None ~
+
+1 # Is it possible to add message if You log first time?
+I mean : If You want to play on this server with full satisfaction, please restart Your CS Client
+[For this Condition Zero stuff xD]
+~ Added. ~
+
+DAT'S ALL FINISH THAT PLEASE BRO :P
+
+2 # Command /party , /guild aren't working - they are chats of the guild /party
+~ Fixed. ~
+
+3 # Maybe some effect when Monk use his ability, because now he is too strong xD [Maybe some aura or message when You hit him :P]
+~ Added ScreenShake on attack, plus bleed. ~
+
+4 # Unique items shouldn't drop after You die ! :D
+~ Fixed. ~
+
+5 # There isn't party exp share when You kill monster :D [I'm not sure about bomb defuse/plant]
+~ Fixed. ~
+
+6 # Loading bar sometimes stuck up, and don't want to load anymore + loading ability should be reset every round .
+~ Resets each round, but I cannot guarantee the bar not being stuck sometimes, due to the HUD being client side. ~
+
+7 # After someone is revived the body is not disappearing [BODY SPAM]
+~ Recompiled, should remove now (not sure). ~
+
+8 # Zabojca lang problem "Ukrycie skonczylo s" instead of "Ukrycie skonczylo sie"
+~ Fixed. ~
+
+9 # Even without item you have a chance to respawn 
+~ Fixed. ~
+
+10 # You can't check other quests now, Doesn't matter if You click 1-9 in quests log, it will show You only first quest (I wanted to check new quests)
+~ Issue 10, 12, 13 and 15 were connected to each other, all fixed. ~
+
+11 # Some players had a serious bug.
+They joined the server and they couldn't shot. I mean they were shooting, but only they saw animation , the rest of server didn't saw a shots, they didn't even saw animation (like you are standing idle)
+This happened to 3 players they were playing different classes Mage, Paladin I guess.
+I can't reproduce it yet...
+
+12 # I can only check first page of items, if I try to check another page it will show items from first page again.
+~ Issue 10, 12, 13 and 15 were connected to each other, all fixed. ~
+
+13 # You can only buy first item from mana shop no matter what You try to to buy
+~ Issue 10, 12, 13 and 15 were connected to each other, all fixed. ~
+
+14 # In this TUTOR it's showing that I completed 12 quests, and there are 18 quests added
+~ Fixed. ~
+
+15 # You can't check quests from third page it will print the descriptions of those that were added before
+~ Issue 10, 12, 13 and 15 were connected to each other, all fixed. ~
+
+16 # When You use item and it's not ready it will cut a piece of text : "gotowy"
+~ Fixed. ~
+
+17 # It printed me that I should restart client (It's not my first time playing on this server =D)
+~ Not a bug. Will print the first time someone joins the server, then never again. ~

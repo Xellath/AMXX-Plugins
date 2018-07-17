@@ -1,0 +1,109 @@
+[en]
+QUEST_ASSASSINATION_NAME = Assassination
+QUEST_ASSASSINATION_DESC = Kill 20 Assassins
+
+QUEST_DEADYET_NAME = Are they dead yet?
+QUEST_DEADYET_DESC = Kill 20 Ninjas
+
+QUEST_DEVOURTHAT_NAME = Devour that, bitch!
+QUEST_DEVOURTHAT_DESC = Kill 20 Necromancers
+
+QUEST_FIRE_NAME = Fire it up!
+QUEST_FIRE_DESC = Kill 20 Mages with Blast Damage
+
+QUEST_HOLYWATER_NAME = Holy water, anyone?
+QUEST_HOLYWATER_DESC = Kill 20 Paladins
+
+QUEST_INNERPEACE_NAME = Inner Peace? No way!
+QUEST_INNERPEACE_DESC = Kill 20 Monks
+
+QUEST_PROJHUNTARD_NAME = Project Huntard
+QUEST_PROJHUNTARD_DESC = Kill 20 Hunters
+
+QUEST_RAMPAGE_NAME = Rampage
+QUEST_RAMPAGE_DESC = Kill 20 Berserkers
+
+QUEST_THATHEALER_NAME = That healer... man!
+QUEST_THATHEALER_DESC = Kill 20 Clerics
+
+QUEST_MONSTERKILL_NAME = MMMMMONSTERKILLLL
+QUEST_MONSTERKILL_DESC = Kill 50 Monsters
+
+QUEST_500_NAME = 500? Piece of cake!
+QUEST_500_DESC = Kill 500 Players
+
+QUEST_5000_NAME = 5000? Wicked sick!
+QUEST_5000_DESC = Kill 5000 Players
+
+QUEST_PLANTAGE_NAME = Plantage
+QUEST_PLANTAGE_DESC = Plant 50 Bombs
+
+QUEST_DEFUSER_NAME = Defuser
+QUEST_DEFUSER_DESC = Defuse 50 Bombs
+
+QUEST_20_HOURS_NAME = Good Riddance!
+QUEST_20_HOURS_DESC = Play 20 Hours
+
+QUEST_200_HOURS_NAME = Getting a bit crazy, are we?
+QUEST_200_HOURS_DESC = Play 200 Hours
+
+QUEST_500_HOURS_NAME = ADDICT
+QUEST_500_HOURS_DESC = Play 500 Hours
+
+QUEST_NUBCAKE_NAME = Nubcake!
+QUEST_NUBCAKE_DESC = Die 10 Times
+
+[pl]
+QUEST_ASSASSINATION_NAME = Zabojstwo doskonale
+QUEST_ASSASSINATION_DESC = Zabij 20 Zabojcow
+
+QUEST_DEADYET_NAME = Czy oni juz umarli?
+QUEST_DEADYET_DESC = Zabij 20 Ninja
+
+QUEST_DEVOURTHAT_NAME = Zezryj to, szmato!
+QUEST_DEVOURTHAT_DESC = Zabij 20 Nekromantow
+
+QUEST_FIRE_NAME = Wysadz ich wszystkich!
+QUEST_FIRE_DESC = Zabij 20 Magow obrazeniami wybuchowymi
+
+QUEST_HOLYWATER_NAME = Woda swiecona, preferujesz?
+QUEST_HOLYWATER_DESC = Zabij 20 Paladynow
+
+QUEST_INNERPEACE_NAME = Wewnetrzny spokoj? Nigdy!
+QUEST_INNERPEACE_DESC = Zabij 20 Mnichow
+
+QUEST_PROJHUNTARD_NAME = Projekt Lowcozjeb
+QUEST_PROJHUNTARD_DESC = Zabij 20 Lowcow
+
+QUEST_RAMPAGE_NAME = Szalenstwo
+QUEST_RAMPAGE_DESC = Zabij 20 Berserkerow
+
+QUEST_THATHEALER_NAME = Ten medyk... ja pierdole!
+QUEST_THATHEALER_DESC = Zabij 20 Klerykow
+
+QUEST_MONSTERKILL_NAME = Wielkie polowanie
+QUEST_MONSTERKILL_DESC = Zabij 50 potworow
+
+QUEST_500_NAME = 500? Bulka z maslem!
+QUEST_500_DESC = Zabij 500 graczy!
+
+QUEST_5000_NAME = 5000? Porabana akcja!
+QUEST_5000_DESC = Zabij 5000 graczy!
+
+QUEST_PLANTAGE_NAME = Bomber
+QUEST_PLANTAGE_DESC = Podloz 50 bomb
+
+QUEST_DEFUSER_NAME = Specjalista
+QUEST_DEFUSER_DESC = Rozbroj 50 bomb
+
+QUEST_20_HOURS_NAME = Dobra rozrywka!
+QUEST_20_HOURS_DESC = Przegraj 20 godzin
+
+QUEST_200_HOURS_NAME = Zaczyna robic sie ciekawie!
+QUEST_200_HOURS_DESC = Przegraj 200 godzin
+
+QUEST_500_HOURS_NAME = UZALEZNIENIE
+QUEST_500_HOURS_DESC = Przegraj 500 godzin
+
+QUEST_NUBCAKE_NAME = Poczatkujacy!
+QUEST_NUBCAKE_DESC = Zgin 10 razy!

@@ -1,0 +1,280 @@
+~ IMPORTANT
+
+*Players are crying about statistics that must be relocated every map. ~ ADDED ~
+I suggest to add option Add ALL points in statistics [Would be really usefull on higher lvl]
+We don't need to save it, just adding this option shall be fine.
+*Berserker - players want it to load just like in PL Diablo. ~ CHANGED ~
+In PL Diablo they could load a shield that was reflecting bullet [1 load = 1 bullet]
+Each 15 stamina they could add additional load of shield, and Intelligence were shortening the cooldown to load
+You was starting with ability to load 2 shields.
+*Delay in monster round with some nice messages
+*Message when monster kill player [Some humilliating stuff :D]
+*Plugin that allow players to switch language by help menu. 90% of players don't know how to change language, and because of dproto default is english. They don't know to play it and leave immadietly.
+
+* ITEM SYSTEM
+
+Players want just normal items to be dropped from You when You die.
+Other items rare/unique, will be just lost by durability corrosion.
+This way players won't lose theirs items so fast.
+
+
+
+~ NORMAL PRIORITY
+
+* Upgrade of mana shop. 
+
+I thought about something that could be sold for mana.
+There are some epic items in game, and there could a great option to keep them with You :P
+So I thought about item for mana
+
+Potion of Immunity [Lame name but I can't think about different xD][ONLY VIP]
+It is granting You Full durability of item and It is lowering your durability corrosion in item 3 times]
+
+Buying exp [ONLY VIP]
+
+You can buy portion of exp for Your current class.
+It shall be a random ammount [ 5 - 15 % of Your current level]
+Available only before 100 lvl
+
+
+* Some prints in chat.
+
+It could be fun if there could be printed a message each round/ time to time.
+From connected players the highest lvl have XXXX [LVL : ][CLASS : ]
+And also : A person who completed most ammount of quests is XXX [X/X]
+The strongest guild is XXX with XXX EXP and LVL :
+
+* Tags in chat.
+
+There should be a TAG
+[Class][Level]NAME : MESSAGE
+
+* EXP FOR 3 BEST PLAYERS
+
+Three best players on map [Counting Kills:Deaths ratio] should be rewarded with EXP
+It could be also recorded, so everyone could see it in player lookup.
+=================================================================================================================
+* GUILD STUFF
+
+- GUILD LEVELS
+Starting from level 1, You can level up guild paying ammount of exp
+
+1lvl - 5 members
+2lvl - 10 members
+3lvl - 20 members
+4lvl - 30 members
+5lvl - 50 memebers
+
+[Guild lvl should be seen in guild lookup]
+
+
+- You should have 20 level to create a guild
+
+- TOP of Guilds [There is a code from JailBreak Gangs - could be usefull]
+There should be a list of top guild listed by EXP with some other infos [Like top 15]
+I thought about something liek this
+
+1 # GUILD NAME | EXP | AMMOUNT OF MEMEBERS | TOTAL AMMOUNT OF KILLS | TOTAL AMMOUNT OF DEATHS | GUILD QUESTS DONE [JUST OPTIONAL IF THERE WOULD BE ANY GUILD QUESTS UPTADE :D]
+Also in guild lookup there should be new thing RANK. So it will show the place that guild is ranked.
+Another thing about guild stats is this lookup. There should be also option to see members of guild. Viewing just a boosts is quiet stupid :P
+
+* Guild quests [OPTIONAL - ONLY WHEN EVERYTHING IS DONE]
+
+I thought about this for a while. There could be added some quests for guild that could be only done by group.
+It could be in guild main menu. Something similar to normal quests but with some difficulty :P
+It's just another idea by me. It could be done soon or sooner, anyway it would have been pretty nice :D
+
+Something like this.
+* Kill 12 ppl in one round [Whole guild]
+* Don't die 3 round in a row
+* Deal total 50000 dmg
+
+You have achievements api, so You know what kind of quests would be needed :P
+
+* Other items to buy for exp
+It's kinda weird to buy just boosts that last for a days or something.
+There could be :
+- 20min Boosts [EXP most important]
+- Blessing from Gods [Chance to drop better item is increased for every member]
+- One map money booster [15% more money]
+
+- Grant some EXP to members. If You have someone who is newbie [Level below 20. You can use guild exp to level up him xD]
+So for example You can spend 10000 guild exp to give him 3000 exp or something. It will give guild members easier start. And it won't affect game a lot, cause it's just to 20lvl]
+
+It's just some random things. We could think about it later :P
+
+* Guild Wars
+
+Yea, You've done similar addon for me for my CoD server.
+It would be almoust the same [CODE]
+
+When there is other guild leader available You can ask his guild for a war!
+* There must be at least 4 ppl online in every guild
+* You can set the exp You want to bet [They are paying exp to fight]
+The system is like this:
+I'm asking the other leader to fight.
+I have a menu.
+1 # Choose guild
+2 # Type a EXP Bet [There should be a limit, so they won't be able to bet all they have]
+3 # Type ammount of points to win [3 points, for leader,2 points for admin, 1 point for normal kill][Should be also a limit - so they won't use huge ammount]
+4 # Type timelimit [Doesn't really need - could be set by cvar so they won't play for a whole map]
+5 # Another guild master have a menu to confirm.
+* For example I bet 10000 exp, and other guild master have agreed.
+If there is a draw the exp is returned.
+If one of the team win The get 10000 exp x 2 + 10% bonus [Or something like this :D Reward is nice]
+The loosers are out with nothing :P 
+The data is saved, so we know which guilds are winning, and which are loosing - amazing option, and the guilds won't be breaking each day :P and the bond beetween guild mates will be created.
+
+With this whole stuff, The guild system would be probably done, and won't be changed in years. This will make this system most biggest and most amazing guild system in whole counter strike 1.6
+=================================================================================================================
+
+* Upgrades of classes ability.
+
+Cleric is now useless as hell. ~ ADDED, not tested ~
+I thought that he could heal teammate while he shot them [50% ammount with primary/secondary weapon, and 100% ammount when he attack them with KNIFE]
+This way a lot of parties will take cleric with them :D
+There should be message after cleric heal someone, and cleric should be granted a bit of EXP.
+Kinda great idea :D 
+
+Monk doesn't have any passive power [Every other class does have a one] ~ ADDED, 20% chance to disarm enemy ~
+So I thought that Monk should have a chance to overpower his oponnent.
+I mean to change his weapon knife [Kinda easy command on client]
+
+* PET
+
+You should have pet till You die. 
+After that You should have to buy another one.
+
+Pet should cost 3 mana points ~ CHANGED, can now be changed with cvar: dbm_petfollower_cost (default: 3) ~
+
+=================================================================================================================
+
+Stat points.
+I saw this in one DiabloMod and It was kinda impressive.
+
+When You have a points like that.
+
+Stamina [X/X]
+Intelligence [X/X]
+Dexternity [X/X]
+Agility [X/X]
+
+On Our DiabloMod it's just printing the ammount of points.
+On another Diablo I saw it this way
+
+Stamina [X/X][Giving You X HP More]
+Intelligence [X/X][Cooldown reduction X, Power of spells X]
+Dexternity [X/X][Decreasing damage done to You by X]
+Agility [X/X][Increasing damage by X]
+=================================================================================================================
+Proposition made by PLAYERS!
+
+They want something like "give". This was one of they favourite on PL DiabloMod.
+On Our Diablo I would make it with a little difference.
+
+When You type /trade, the menu shall appear.
+Now You can trade Your item.
+
+This shall work like that
+1 # Choose player
+2 # Choose item you want from him
+3 # Choose item you will give him / Choose ammount of mana You will pay.
+4 # Confirmation
+
+This will be good to trade unique/rare items.
+Later it could be good tool for artefacts or something like that :D
+==================================================================================================================
+
+Cleric heal system.
+
+You can heal your teammates by shooting to them.
+Default time is 20sec[ Can be changed xD], and it's scaling with your intelligence
+
+The Hp you heal is scaling with Your damage
+For weapons it is x 1.5.
+For knife it is x 3.0.
+
+After You heal someone there is message/hud that informs You about action You just take.
+
+The message that appear on Your chat
+
+You just healed XXX giving him back XXX hp.
+You can use next heal in XXX seconds [This can be printed also if you try to heal someone when it's not ready - but only each 5 sec, so it won't spam so much]
+
+The message on chat person that You healed.
+
+Heaven watch over you! Cleric [Name] gave You back XXX Hp.
+[You are better in making such a texts xD]
+
+==================================================================================================================
+
+Guild chat.
+
+In guild chat there could be a division of rank.
+So it would work like that.
+
+(Guild)[LEADER]F0RCE: Hello I'm Pr0
+(Guild)[ADMIN]xellath: Yes, You are the best
+(Guild)[MEMBER]Phreak: You are the best L0L player F0RCE
+
+==================================================================================================================
+
+When You aim at Your teammate there should an hud info printed.
+
+Name : [XXX] Level: [XXX] Class: [XXX] Guild: [XXX] 
+[Guild is just optional, don't know if it will fit with guild.
+
+==================================================================================================================
+
+Forget about one thing in Guild :D
+Guild Notice could be a good choice!
+
+So admin/leader can add a notice in motd to let other players know what's going on
+
+==================================================================================================================
+
+XP BONUS.
+
+I saw FirstBlood bonus so I thought about some other difference bonuses
+
+- HighLevel Killer  [Kill player who have 50lvl more than You]
+- Legendary Kill [Kill player who have actually highest lvl from playing players]
+- Triple Kill
+- Quadra Kill  /////// COUNTED BY ROUND, RESET EACH ROUND //////
+- Penta Kill
+- Knife Kill [Not working for Ninja or what? Counting flying knives]
+- Payback [Take revenge on someone who killed You]
+- LongShot [Kill from a really high distance]
+- One Shot One Kill [Kill someone with just one shoot]
+- Party killers [5kills done by party]
+- Party masters [10kills done by party]
+- Survivor [Survive a round, when You are last alive from Your team]
+- Admin killer [Kill admin xD - funny bonus]
+
+
+==================================================================================================================
+
+IP Security.
+I wanted to place IP security on this package.
+My method is a bit annoying [In plugin init You write iP - just like Xalus did in CoD]
+So maybe is there any easier method? In native or somewhere, so I can use it for whole API?
+
+It could be a minute for You, but it could save package from being public in future :)
+
+
+==================================================================================================================
+
+Letting low level players to stand a chance against high leveled players.
+I think that I have already said that before but just to remind.
+
+I thought that system that will give more exp when low lvl fight vs high lvl [More exp for kill, more exp for dmg]
+So if You fight someone :
+
+20lvl more than You are having 25% bonus exp
+50lvl more than you are having 30% bonus exp
+100lvl+ than you are having 50% bonus exp
+
+So If You normally earn 100 exp for 100 dmg, You will earn 150 exp for 100 dmg if You fight with someone 100lvl more than You
+
+Should also be done in party
+[It doesn't have to look like this, You can invent different system, but it should also help low level players to play :D

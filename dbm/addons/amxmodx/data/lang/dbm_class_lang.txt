@@ -1,0 +1,119 @@
+[en]
+CLASS_ASSASSIN_NAME = Assassin
+CLASS_ASSASSIN_DESC = Assassins do not employ the magic arts; they focus on the natural abilities of the mortal body-powers of the mind and unarmed combat. Assassins have a small chance to instantly kill an enemy with his knife.
+CLASS_ASSASSIN_ABI = Stealth
+CLASS_ASSASSIN_ABI_DESC = Makes the assassin temporarily invisible (Intelligence increases the duration)
+
+CLASS_BERSERKER_NAME = Berserker
+CLASS_BERSERKER_DESC = Mad with rage; a Berserker is a warrior fueled by fury. Berserkers regenerate health and ammo when they kill an enemy based opon their Regeneration.
+CLASS_BERSERKER_ABI = Fury Dodge
+CLASS_BERSERKER_ABI_DESC = The Berserker fills all void with fury and will dodge all attacks against him
+
+CLASS_CLERIC_NAME = Cleric
+CLASS_CLERIC_DESC = Clerics are able to mend wounds and turn the tide of battles.
+CLASS_CLERIC_ABI = Divine Resolute
+CLASS_CLERIC_ABI_DESC = The cleric uses his divine magic to allow him to continously heal teammates around him (Intelligence increases the healing done)
+
+CLASS_HUNTER_NAME = Hunter
+CLASS_HUNTER_DESC = The hunter is a stalker in the wilds, living on his knowledge of survival and skill of his rifle. Hunters can build focus to gain agility and increase his attack speed (Intelligence also increases attack speed).
+CLASS_HUNTER_ABI = Focus Fire
+CLASS_HUNTER_ABI_DESC = The Hunter focuses to increase his damage and attack speed (Agility increases the scaling)
+
+CLASS_MAGE_NAME = Mage
+CLASS_MAGE_DESC = Magic courses through your veins. Your fiery powers enable you to cast powerful spells. Mages can see invisible Ninjas if he uses his flashlight.
+CLASS_MAGE_ABI = Fireball
+CLASS_MAGE_ABI_DESC = Fires a bolt of fire forward (Intelligence increases the scaling)
+CLASS_MAGE_ABI_PLURAL = Fireballs
+
+CLASS_MONK_NAME = Monk
+CLASS_MONK_DESC = Monks channel their chi to achieve inner peace.
+CLASS_MONK_ABI = Inner Peace
+CLASS_MONK_ABI_DESC = Monk achieves inner peace and can reflect all damage done to him
+
+CLASS_NECROMANCER_NAME = Necromancer
+CLASS_NECROMANCER_DESC = Necromancers are spellcasters whose magics manipulate the power of death. Necromancers specialize on vampirism, allowing them to steal health when dealing damage.
+CLASS_NECROMANCER_ABI = Devour Flesh
+CLASS_NECROMANCER_ABI_DESC = The Necromancer devours the flesh of a dead body to resurrect fellow teammates under an oath and bring eternal damnation to enemies
+CLASS_NECROMANCER_SPECIAL = Devouring %s's Flesh
+CLASS_NECROMANCER_SPECIAL2 = No corpses nearby; cannot use Devour Flesh.
+CLASS_NECROMANCER_SPECIAL3 = Teammate %s was revived!
+CLASS_NECROMANCER_SPECIAL4 = The Flesh from %s gave you %i EXP!
+
+CLASS_NINJA_NAME = Ninja
+CLASS_NINJA_DESC = Ninjas are masters of stealth and the deadly arts! Ninjas can only use knifes.
+CLASS_NINJA_ABI = Rush
+CLASS_NINJA_ABI_DESC = Gives a temporary speed increase
+CLASS_NINJA_SPECIAL = Current Maxspeed
+
+CLASS_PALADIN_NAME = Paladin
+CLASS_PALADIN_DESC = Paladins are the virtuous defenders of the weak and tireless. They specialize in holy powers. Paladins can sometimes deal critical strikes when dealing damage.
+CLASS_PALADIN_ABI = Holy Jump
+CLASS_PALADIN_ABI_DESC = The paladin leaps forward using his holy powers
+CLASS_PALADIN_ABI_PLURAL = Holy Jumps
+
+CLASS_ABILITY_ACTIVE = active
+CLASS_ABILITY_ACTIVATED = activated
+CLASS_ABILITY_USED = used
+CLASS_ABILITY_ENDED = ended
+CLASS_ABILITY_READY = ready
+CLASS_ABILITY_NOT_READY = That ability is not ready yet!
+
+[pl]
+CLASS_ASSASSIN_NAME = Zabojca
+CLASS_ASSASSIN_DESC = Zabojcy nie studiuja magicznych sztuk; skupiaja sie na naturnych zdolnosciach ukrytych w ludzkim ciele i walce wrecz. Zabojca ma mala szanse na natychmiastwo zabicie nozem.
+CLASS_ASSASSIN_ABI = Ukrycie
+CLASS_ASSASSIN_ABI_DESC = Czyni Zabojce tymczasowo niewidzialnym (Inteligencja przedluza czas dzialania)
+
+CLASS_BERSERKER_NAME = Berserker
+CLASS_BERSERKER_DESC = Przepelniony gniewem i szalenstwem; Berserk to wojownik zasilany furia. Berserkerzy regeneruja zycie i amunicje zabijajac wroga, a wszystko zalezne jest od ich regeneracji.
+CLASS_BERSERKER_ABI = Furia obronna
+CLASS_BERSERKER_ABI_DESC = Berserker wypelnia pustke w swoim ciele furia i jest zdolny do unikania wszelkich obrazen
+
+CLASS_CLERIC_NAME = Kleryk
+CLASS_CLERIC_DESC = Klerycy sa zdolni do uleczenia ran i odwracania losow bitwy.
+CLASS_CLERIC_ABI = Boska rezolucja
+CLASS_CLERIC_ABI_DESC = Kleryk uzywa swojej boskiej magii i dzieki temu moze leczac pobliskich sojusznikow (Inteligencja zwieksza ilosc leczonego zdrowia)
+
+CLASS_HUNTER_NAME = Lowca
+CLASS_HUNTER_DESC = Lowca jest niewidzialny w dziczy, przezywa dzieki zdolnosciom snajperskim i zwinnosci. Lowcy moga uzywac kuszy aby szybciej i celniej strzelac (Inteligencja zwieksza predkosc ataku).
+CLASS_HUNTER_ABI = Celna salwa
+CLASS_HUNTER_ABI_DESC = Lowca skupia sie aby zwiekszyc swoje obrazenia i predkosc ataku (Zrecznosc ulepsza ta umiejetnosc)
+
+CLASS_MAGE_NAME = Mag
+CLASS_MAGE_DESC = Magia plynie w twoich zylach. Twoje dzikie moce pozwalaja Ci uzyc poteznych zaklec. Magowie moga uzywac latarek by widziec niewidzialnych ninja.
+CLASS_MAGE_ABI = Kula ognia
+CLASS_MAGE_ABI_DESC = Wysylaj kule ognia przed siebie (Inteligencja zwieksza sile czaru)
+CLASS_MAGE_ABI_PLURAL = Kula ognia
+
+CLASS_MONK_NAME = Mnich
+CLASS_MONK_DESC = Mnich to cicha istota kumulajaca CHI by uzyskac wewnetrzny spokoj.
+CLASS_MONK_ABI = Wewnetrzny spokoj
+CLASS_MONK_ABI_DESC = Mnich osiaga wewnetrzny spokoj i moze odbic wszystkie obrazenia mu zadane
+
+CLASS_NECROMANCER_NAME = Nekromanta
+CLASS_NECROMANCER_DESC = Nekromanta rzuca zaklecia potrafiace manipulowac zyciem i smiercia. Nekromanci specializuja sie w wampiryzmie, pozwala im to wysysac zycie kiedy atakuja wroga.
+CLASS_NECROMANCER_ABI = Pozarcie Ciala
+CLASS_NECROMANCER_ABI_DESC = Nekromanta pozera martwe cialo by wskrzesic sojusznika lub przywrocic sobie zycie i skazac wroga na wieczne potepienie
+CLASS_NECROMANCER_SPECIAL = Pozeranie ciala %s
+CLASS_NECROMANCER_SPECIAL2 = Nie ma w poblizu cial; Nie mozna uzyc pozarcia.
+CLASS_NECROMANCER_SPECIAL3 = Sojusznik %s zostal wskrzeszony!
+CLASS_NECROMANCER_SPECIAL4 = Cialo gracza %s dalo Ci %i EXPA!
+
+CLASS_NINJA_NAME = Ninja
+CLASS_NINJA_DESC = Ninja sa mistrzami ukrycia i smiertelnych sztuk walki! Ninja moga uzywac tylko noza.
+CLASS_NINJA_ABI = Przyspieszenie
+CLASS_NINJA_ABI_DESC = Zwieksza tymczasowo predkosc
+CLASS_NINJA_SPECIAL = Aktualna predkosc
+
+CLASS_PALADIN_NAME = Paladyn
+CLASS_PALADIN_DESC = Paladyni sa niestrudzonymi obroncami slabych i ucisnionych. Specjalizuja sie w swietych mocach. Paladyni moga czasami zadac krytyczne obrazenia.
+CLASS_PALADIN_ABI = Swiety Skok
+CLASS_PALADIN_ABI_DESC = Paladyn skacze do przodu uzywajac swojej mocy
+CLASS_PALADIN_ABI_PLURAL = Swiety Skok
+
+CLASS_ABILITY_ACTIVE = aktywna
+CLASS_ABILITY_ACTIVATED = aktywowano
+CLASS_ABILITY_USED = uzyto
+CLASS_ABILITY_ENDED = skonczylo sie
+CLASS_ABILITY_READY = gotowe
+CLASS_ABILITY_NOT_READY = Ta umiejetnosc nie jest jeszcze gotowa!

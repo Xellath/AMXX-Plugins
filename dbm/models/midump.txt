@@ -1,0 +1,79 @@
+ID Tag: IDST
+Version: 10
+Name: "C:\SIERRA\Half-Life\valve\models\player\hgrunt\sensubeanbag\mode˜"
+Length: 6808
+
+Eye Position: 0.000000 0.000000 0.000000
+Min: 0.000000 0.000000 0.000000
+Max: 0.000000 0.000000 0.000000
+Bounding Box Min: 0.000000 0.000000 0.000000
+Bounding Box Max: 0.000000 0.000000 0.000000
+Flags: 0
+
+Number of Bones: 1
+
+Bone 1 Name: "Box01"
+Bone 1 Parent: -1
+Bone 1 Flags: 0
+Bone 1 Bonecontroller: -1 -1 -1 -1 -1 -1
+Bone 1 Value: 0.172540 -4.131640 1.281273 -1.570796 0.000000 0.000000
+Bone 1 Scale: 0.003906 0.003906 0.003906 0.000012 0.000012 0.000048
+
+Number of Bone Controllers: 0
+
+Number of Hitboxes: 1
+
+Hitbox 1 Bone: 0
+Hitbox 1 Group: 0
+Hitbox 1 Bounding Box Min: -5.920000 -10.260000 -4.970000
+Hitbox 1 Bounding Box Max: 5.700000 1.410000 5.080000
+
+Number of Sequences: 1
+
+Sequence 1 Label: "idle"
+Sequence 1 Frames per sec: 30.000000
+Sequence 1 Flags: 0
+Sequence 1 Events: 0
+
+Number of Sequence Groups: 1
+
+Sequence Group 1 Label: "default"
+
+Sequence Group 1 Name: ""
+
+Sequence Group 1 Data: 0
+
+Number of Textures: 1
+Texture Index: 244
+Texture Data Index: 328
+
+Texture 1 Name: "sensubeanbag.bmp"
+Texture 1 Flags: 0
+Texture 1 Width: 256
+Texture 1 Height: 256
+Texture 1 Index: 328
+
+Number of Skin References: 0
+Number of Skin Families: 0
+
+Number of Body Parts: 1
+
+Body Part 1 Name: "studio"
+Body Part 1 Number of Models: 1
+Body Part 1 Base: 1
+Body Part 1 Model Index: 764
+
+	Sub Model 1 Name: "bag"
+	Sub Model 1 Type: 0
+	Sub Model 1 Meshes: 1
+	Sub Model 1 Vertices: 133
+	Sub Model 1 Normals: 126
+	Sub Model 1 Deformation Groups: 0
+
+		Sub Model 1, Mesh 1 Total Triangles: 261
+		Sub Model 1, Mesh 1 Triangle Index: 4268
+		Sub Model 1, Mesh 1 Skin Reference: 0
+		Sub Model 1, Mesh 1 Total Normals: 126
+		Sub Model 1, Mesh 1 Normals Index: 0
+
+Number of Attatchments: 0

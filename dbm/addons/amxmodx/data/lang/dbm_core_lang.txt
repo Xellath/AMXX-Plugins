@@ -1,0 +1,565 @@
+[en]
+SERVER_USING = This server is using Diablo Mod by
+
+DIABLO_MOD = Diablo Mod
+MOD_PREFIX = [ Diablo Mod ]
+MENU_PREFIX = \r[ \yDiablo Mod \r]
+
+RESTART_CLIENT1 = ************ NOTE ************
+RESTART_CLIENT2 = Since this is your first time on this server, we urge you to follow these instructions for maximum gameplay satisfaction.
+RESTART_CLIENT3 = To experience all unique features that Diablo Mod offers, a restart of the CS client might be required.
+RESTART_CLIENT4 = This is to assure that the elegant CZ tutor messages are fully functional.
+RESTART_CLIENT5 = Thank you for playing.
+
+QUEST = Quest
+QUESTS_COMPLETED = Quests Completed
+QUEST_COMPLETED_GJ = Quest Completed: %s
+QUEST_GOOD_JOB = Good job!
+QUEST_TUTOR = You have completed %i out of %i quests
+QUEST_HELP = Type 'help' to see gameplay information
+QUEST_COMPLETED = Completed
+QUEST_INPROGRESS = In Progress
+QUEST_STATUS = Status
+QUEST_BACK = Back to Quest Log
+
+QUEST_EXP_RECEIVED = You received %i EXP and %i Mana for completing '%L'.
+
+GUILD = Guild
+GUILD_SYSTEM = Guild System
+
+PARTY = Party
+PARTY_SYSTEM = Party System
+PARTY_INVITE = Party Invite
+PARTY_KICK = Party Kick
+
+PARTY_CREATED = A party was created. You can now invite players to your party.
+PARTY_CANNOT_INV = You cannot invite more than %i players to your party.
+PARTY_REDIRECT = Redirecting to Party System Menu.
+PARTY_PICK_INV = Pick a client to invite to your party:
+PARTY_PICK_KICK = Pick a client to kick from your party:
+PARTY_REQUEST = Party Request
+PARTY_REQ_INVITED = has invited you to join his party
+PARTY_REQ_ACCEPT = Accept
+PARTY_REQ_DECLINE = Decline
+
+PARTY_JOINED = %s has joined the party.
+PARTY_DECLINED = %s declined the party invite.
+PARTY_DISBANDED = Your party leader has disbanded the party.
+PARTY_DISBANDED2 = You disbanded the party.
+PARTY_PLAYER_LEFT = %s has left the party.
+
+PARTY_EXP_DEFUSE = You received %i EXP for defusing the bomb.
+PARTY_EXP_PLANT = You received %i EXP for planting the bomb.
+PARTY_EXP_HOSTAGE = You received %i EXP for rescuing the hostages.
+PARTY_MEMBER_GAIN = You received %i EXP due to a party member gaining experience.
+
+TEAM_PLANT = You received %i EXP because your team planted the bomb.
+TEAM_DEFUSE = You received %i EXP because your team defused the bomb.
+TEAM_WIN = You received %i EXP for winning the round.
+
+DEATHMSG_FIRSTBLOOD = First Blood! %s killed %s and was rewarded a bonus.
+DEATHMSG_HEADSHOTBONUS = with a headshot.
+DEATHMSG_KILL = You received %i EXP for killing %s%s
+
+ACCESS = Access
+LEVEL = Level
+
+CURRENT_LEVEL = Current Level
+CURRENT_CLASS = Current Class
+CURRENT_ITEM = Current Item
+CURRENT_EXP = Current amount of EXP
+CURRENT_MANA = Current Mana
+
+CLASS = Class
+CLASS_LEVEL_UP = %s is now a level %i %L. Congratulations!
+CLASS_STAT_AVAIL = You have %i available statpoints. Distribute them in the popup menu.
+CLASS_SELECT = Please select a class. Type 'class' or 'menu' to change your class.
+CLASS_CHANGED = Your class was changed to %L. Stats were reset and have to be redistributed.
+CLASS_CHANGE_NEXT = Your class will be changed to %L next round. Stats will reset and have to be redistributed.
+CLASS_ALREADY = You are a %L already.
+CLASS_ACCESS = You have no access to that class (%L). Requires %L status.
+CLASS_INFO = Class Info for class %L has been printed to your console.
+
+AVAILABLE_STATPOINTS = Available Statpoints
+AVAILABLE_STATPOINTS2 = You have available statpoints. Type 'stat' to distribute them.
+AVAILABLE_BINDS = Available Binds
+
+STAT_POINTS_SPENT = All statpoints spent. Distribution:
+STAT_POINTS_NOREDIST = You cannot redistribute statpoints once set. Type 'reset' to reset your statpoints.
+
+STATS_RESET = Your stats were reset. Based on your current class and level, you have %i statpoints to distribute. A menu will open shortly.
+STATS_UNCHANGED = All stats remain unchanged. Type 'reset' to if you want to reset your stats.
+
+STAT_ADD_1 = Add 1 Point
+STAT_ADD_5 = Add 5 Points
+STAT_ADD_10 = Add 10 Points
+STAT_ADD_ALL = Add All Points
+
+STAT_INFO = Stat Info
+STAT_INFO_PRINT = Stat Info has been printed to your console.
+
+USE_ABILITY = Use your Ability:
+USE_ITEM = Use your Item:
+
+SHOW_ALL_DESC = Show all descriptions in:
+
+ACTION = Action
+DESCRIPTION = Description
+PROGRESS = Progress
+GAMEPLAY = Gameplay
+BINDS_LANG = Binds and Language
+CREDITS = Credits
+CHOOSE_LANGUAGE = Choose Language
+
+COMMANDS = Commands
+COMMANDS_PREFIXED = All commands can be prefixed like the following: menu .menu !menu /menu
+COMMANDS_PRINTED = All available commands has been printed to your console.
+
+ABILITY = Ability
+DELAY = Delay
+
+HEALTH = Health
+STATS = Stats
+MANA = Mana
+MAX = max
+POINTS = points
+
+PET = Pet
+PETS = Pets
+
+CURRENT = Current
+CATEGORY = Category
+
+YES = Yes
+NO = No
+
+MOTD = MOTD
+CONSOLE = Console
+
+ACCEPT = Accept
+DECLINE = Decline
+
+AUTHOR = Author
+SPECIAL_THANKS = Special thanks to
+
+NONE = None
+NAME = Name
+
+NEXT = Next
+BACK = Back
+EXIT = Exit
+
+MENU = Menu
+MENU_MAIN = Main Menu
+MENU_MAIN_MSHOP = Mana Shop
+MENU_MAIN_ADDONS = Addons
+MENU_MAIN_QUEST = Quest Log
+MENU_MAIN_LOOKUP = Player Lookup
+MENU_MAIN_SELECT = Select Class
+MENU_MAIN_RESET = Reset Stats
+MENU_MAIN_HELP = Help
+
+MENU_PARTY_MEMBERS = Members
+MENU_PARTY_CREATE = Create Party
+MENU_PARTY_INVITE = Invite Player to Party
+MENU_PARTY_KICK = Kick Player from Party
+MENU_PARTY_DISBAND = Disband Party
+MENU_PARTY_LEAVE = Leave Party
+
+MENU_SELECT_CLASS = Select Class
+
+MENU_STAT_DISTRIBUTION = Stat Distribution
+MENU_CONFIRM_RESET = Do you want to reset your stats?
+
+MENU_PLAYER_LOOKUP = Player Lookup
+MENU_PLAYER_PICK = Pick an online client to view their stats:
+MENU_LOOKUP_PRINT = Player Lookup on client %s has been printed to your console.
+
+HELP_BACK = Back to Help Menu
+
+BIND_AUTO = Assign binds to default buttons
+DEFAULT_BUTTONS_V = Use Ability
+DEFAULT_BUTTONS_C = Use Item
+BIND_AUTO_TEXT = 'use_ability' and 'use_item' has been successfully bound to V respectively C.
+
+ITEM_NAME = Item
+ITEM_DURABILITY = Durability
+ITEM_CATEGORY = Category
+
+ITEM_DROPPED = Your item was dropped. Duck over an item to pick it up.
+ITEM_RECEIVED = You received the item %L (%L). Durability: %i. Type 'itemdesc' to see what power it grants.
+ITEM_NOT_ENOUGH_MANA = You don't have enough mana to purchase this item.
+ITEM_ALREADY_HAVE = You already have an item. Type 'dropitem' to drop your current item.
+ITEM_DONT_HAVE = You don't have an item. Type 'mana' to purchase one, or pick up an item lying on the ground.
+ITEM_DUR_RUN_OUT = Your item's durability has run out. Type 'mana' to purchase another item, or pick up an item lying on the ground.
+
+ITEM_INFO = Item Info on the item %L has been printed to your console.
+
+ACCESSNAME_BRONZE = Bronze
+ACCESSNAME_SILVER = Silver
+ACCESSNAME_GOLD = Gold
+ACCESSNAME_PLATINUM = Platinum
+
+CATEGORYNAME_COMMON = Common
+CATEGORYNAME_RARE = Rare
+CATEGORYNAME_UNIQUE = Unique
+
+STATNAME_INTELLIGENCE = Intelligence
+STATNAME_STAMINA = Stamina
+STATNAME_DEXTERITY = Dexterity
+STATNAME_AGILITY = Agility
+STATNAME_REGENERATION = Regeneration
+
+STATNAME_INT = INT
+STATNAME_STA = STA
+STATNAME_DEX = DEX
+STATNAME_AGI = AGI
+STATNAME_REG = REG
+
+STATDESC_INTELLIGENCE = Increases magic damage and reduces casting time
+STATDESC_STAMINA = Increases base HP and influences regeneration
+STATDESC_DEXTERITY = Decreases damage from all sources
+STATDESC_AGILITY = Increases all damage output
+STATDESC_REGENERATION = Reduces time between regeneration
+
+STATDESC_INTELLIGENCE_SCALING = Increases magic damage (+%i) and reduces casting time (-%f)
+STATDESC_STAMINA_SCALING = Increases base HP (+%i) and influences regeneration (-%f between intervals)
+STATDESC_DEXTERITY_SCALING = Decreases damage from all sources (-%i damage)
+STATDESC_AGILITY_SCALING = Increases all damage output (+%i extra damage)
+STATDESC_REGENERATION_SCALING = Reduces time between regeneration (-%f between intervals)
+
+COMMAND_MENU = menu
+COMMAND_CLASS = class
+COMMAND_CLASSDESC = classdesc
+COMMAND_ITEMDESC = itemdesc
+COMMAND_DROPITEM = dropitem
+COMMAND_MANA = mana
+COMMAND_STAT = stat
+COMMAND_PLAYERS = players
+COMMAND_RESET = reset
+COMMAND_PARTY = party
+COMMAND_GUILD = guild
+COMMAND_HELP = help
+COMMAND_CREDITS = credits
+COMMAND_COMMANDS = commands
+COMMAND_QUESTLOG = questlog
+
+COMMANDLIST_MENU = Opens the main menu
+COMMANDLIST_CLASS = Opens the class selection menu
+COMMANDLIST_CLASSDESC = Opens the class description menu
+COMMANDLIST_ITEAMDESC = Opens the item description menu
+COMMANDLIST_DROPITEM = Drops your current item
+COMMANDLIST_MANA = Opens the mana shop menu
+COMMANDLIST_STAT = Opens the statpoints distribution menu
+COMMANDLIST_PLAYERS = Opens the player lookup menu
+COMMANDLIST_RESET = Opens the reset statpoints menu
+COMMANDLIST_PARTY = Opens the party interface menu
+COMMANDLIST_GUILD = Opens the guild interface menu
+COMMANDLIST_HELP = Opens the help menu
+COMMANDLIST_CREDITS = Opens this motd
+COMMANDLIST_COMMANDS = Opens the credits menu
+COMMANDLIST_QUESTLOG = Opens the quest log
+COMMANDLIST_PET = Opens the pet menu
+
+GAMEPLAY_INFO = Gameplay Info has been printed to your console.
+
+GAMEPLAYHELP_1 = Diablo Mod is a mod that emulates Diablo classes and extensions.
+GAMEPLAYHELP_2 = Normal CS 1.6 gameplay, but it comes with a twist ~
+GAMEPLAYHELP_3 = You can level different classes and along with collectable items you can enhance your fighting skills!
+GAMEPLAYHELP_4 = You can even tackle some quests to be awarded with great fortune!
+GAMEPLAYHELP_5 = Classes, Items and Quests
+GAMEPLAYHELP_6 = This server has installed a total of %i classes (type 'classes' to see them), %i items ('itemdesc') and %i quests ('questlog')!
+GAMEPLAYHELP_7 = Each class has it's own set of skills, weapon enhancing abilities. Those skills also feed off the statpoints you distribute.
+GAMEPLAYHELP_8 = Items come in different categories ~ 
+GAMEPLAYHELP_9 = Common items are droppped from players (90% chance, if the player does not have an actual item himself, then that item is dropped.).
+GAMEPLAYHELP_10 = Rare items have a 10%% chance to drop. Rare items are the most powerful items.
+GAMEPLAYHELP_11 = Unique items are purchased with Mana points in the shop. Slightly better than common items.
+GAMEPLAYHELP_12 = The durability of items are deducted every %i seconds when alive.
+GAMEPLAYHELP_13 = Open your Quest Log to see which quests that are available and if they're completed or not!
+GAMEPLAYHELP_14 = Party and Guild System
+GAMEPLAYHELP_15 = You can invite fellow players to your party and share the EXP you receive.
+GAMEPLAYHELP_16 = You can also form a guild to gain guild EXP and purchase extra modifiers and EXP boosts.
+GAMEPLAYHELP_17 = Both parties and guilds have their own chat; type '@p/g message' to chat within your party/guild.
+
+
+[pl]
+SERVER_USING = Ten serwer uzywa DiabloModa stworzonego przez
+
+DIABLO_MOD = Diablo Mod
+MOD_PREFIX = [ Diablo Mod ]
+MENU_PREFIX = \r[ \yDiablo Mod \r]
+
+RESTART_CLIENT1 = ************ UWAGA ************
+RESTART_CLIENT2 = Wszedles na serwer pierwszy raz, zalecamy bys dostosowal sie do zasad by czerpac jak najwiecej przyjemnosci z gry.
+RESTART_CLIENT3 = Aby doswiadczyc wszystkich unikalnych dodatkow z naszego serwera DiabloMod, nalezy zrestartowac klienta CS.
+RESTART_CLIENT4 = Dzieki temu bedziesz mogl wyswietlac wszystkie wiadomosci typu TUTOR poprawnie
+RESTART_CLIENT5 = Dziekujemy za to ze jestes z Nami!
+
+QUEST = Zadania
+QUESTS_COMPLETED = Zadania wykonane
+QUEST_COMPLETED_GJ = Zadanie wykonane: %s
+QUEST_GOOD_JOB = Dobra robota!
+QUEST_TUTOR = Wykonales %i z dostepnych %i misji
+QUEST_HELP = Wpisz 'pomoc' aby zobaczyc informacje o grze
+QUEST_COMPLETED = Wykonano
+QUEST_INPROGRESS = W trakcie
+QUEST_STATUS = Status
+QUEST_BACK = Wroc do Menu Zadan
+
+QUEST_EXP_RECEIVED = Otrzymales %i EXPA i %i MANY za wykonanie zadania '%L'.
+
+GUILD = Gildia
+GUILD_SYSTEM = System gildii
+
+PARTY = Party
+PARTY_SYSTEM = System party
+PARTY_INVITE = Menu zaproszen
+PARTY_KICK = Menu wyrzucania z party
+
+PARTY_CREATED = Party zostalo utworzone. Mozesz teraz zapraszac ludzi do swojego party.
+PARTY_CANNOT_INV = Nie mozesz zaprosic wiecej niz %i graczy do twojego party.
+PARTY_REDIRECT = Przenosze do Menu systemu party
+PARTY_PICK_INV = Wybierz gracza ktorego chcesz zaprosic:
+PARTY_PICK_KICK = Wybierz gracza ktorego chcesz wyrzucic:
+PARTY_REQUEST = Propozycja dolaczenia
+PARTY_REQ_INVITED = zaprosil Cie bys dolaczyl do jego party
+PARTY_REQ_ACCEPT = Akceptuj
+PARTY_REQ_DECLINE = Odrzuc
+
+PARTY_JOINED = %s dolaczyl do party.
+PARTY_DECLINED = %s odrzucil zaproszenie do party.
+PARTY_DISBANDED = Lider party w ktorym byles wlasnie je rozwiazal.
+PARTY_DISBANDED2 = Rozwiazales swoje party.
+PARTY_PLAYER_LEFT = %s opuscil party.
+
+PARTY_EXP_DEFUSE = Otrzymales %i EXP za rozbrojenie bomby.
+PARTY_EXP_PLANT = Otrzymales %i EXP za podlozenie bomby.
+PARTY_EXP_HOSTAGE = Otrzymales %i EXP za uratowanie zakladnika.
+PARTY_MEMBER_GAIN = Otrzymales %i EXP zgodnie z podzialem druzynowym
+
+TEAM_PLANT = Otrzymales %i EXP poniewaz Twoja druzyna podlozyla bombe.
+TEAM_DEFUSE = Otrzymales %i EXP poniewaz Twoja druzyna rozbroila bombe.
+TEAM_WIN = Otrzymales %i EXP za wygranie rundy.
+
+DEATHMSG_FIRSTBLOOD = Pierwsza krew! %s zabil %s i otrzymal dodatkowy bonus.
+DEATHMSG_HEADSHOTBONUS = strzalem w glowe.
+DEATHMSG_KILL = Otrzymales %i EXP za zabicie %s%s
+
+ACCESS = Dostep
+LEVEL = Level
+
+CURRENT_LEVEL = Aktualny Poziom
+CURRENT_CLASS = Aktualna Klasa
+CURRENT_ITEM = Aktualny Przedmiot
+CURRENT_EXP = Aktualna ilosc doswiadczenia
+CURRENT_MANA = Aktualna Mana
+
+CLASS = Klasa
+CLASS_LEVEL_UP = %s ma teraz level %i %L. Gratulacje!
+CLASS_STAT_AVAIL = Masz %i dostepnych punktow. Rozdaj je w menu ktore wlasnie wyskoczylo.
+CLASS_SELECT = Prosze wybierz klase. Wpisz 'klasa' albo 'menu' aby zmienic swoja klase.
+CLASS_CHANGED = Twoja klasa zostala zmieniona do %L. Umiejetnosci zostaly zrestartowane i musza byc ponownie przydzielone.
+CLASS_CHANGE_NEXT = Twoja klasa zostanie zmieniona do w %L nastepnej rundzie. Umiejetnosci zostana zrestartowane i musza byc ponownie przydzielone.
+CLASS_ALREADY = Jestes juz %L .
+CLASS_ACCESS = Nie masz dostepu do tej klasy (%L). Wymagany dostep %L .
+CLASS_INFO = Informacje o klasie %L zostaly wydrukowane w Twojej konsoli.
+
+AVAILABLE_STATPOINTS = Dostepne punkty umiejetnosci
+AVAILABLE_STATPOINTS2 = Masz dostepne punkty umiejetnosci. Wpisz 'rodziel' aby je przydzielic.
+AVAILABLE_BINDS = Dostepne bindy
+
+STAT_POINTS_SPENT = Wszystkie punkty zostaly wydane. Ogolny przydzial:
+STAT_POINTS_NOREDIST = Nie mozesz ponownie przydzielic rozdanych punktow. Wpisz 'reset' aby zrestartowac swoje punkty.
+
+STATS_RESET = Twoje statystyki zostaly zrestartowane. Bazujac na Twojej aktualnej klasie i levelu, masz %i punktow umiejetnosci do rozdzielenia. Menu pojawi sie niebawem.
+STATS_UNCHANGED = Wszystkie statystyki pozostaly niezmienione. Wpisz 'reset' jesli chcesz je zresetowac ponownie.
+
+STAT_ADD_1 = Dodaj 1 Punkt
+STAT_ADD_5 = Dodaj 5 Punktow
+STAT_ADD_10 = Dodaj 10 Punktow
+STAT_ADD_ALL = Rozdaj Wszystkie Punkty
+
+STAT_INFO = Info o statystykach
+STAT_INFO_PRINT = Info o statystykach zostalo pokazane w Twojej konsoli.
+
+USE_ABILITY = Uzyj umiejetnosci:
+USE_ITEM = Uzycie przedmiotu:
+
+SHOW_ALL_DESC = Pokaz wszystkie opisy w:
+
+ACTION = Akcja
+DESCRIPTION = Opis
+PROGRESS = Postep
+GAMEPLAY = Tryb Gry
+BINDS_LANG = Bindy i jezyk
+CREDITS = Podziekowania
+CHOOSE_LANGUAGE = Wybierz jezyk
+
+COMMANDS = Komendy
+COMMANDS_PREFIXED = Wszystkie komendy moga byc prefixowane jak te: menu .menu !menu /menu
+COMMANDS_PRINTED = Wszystkie komendy zostaly wydrukowane w Twojej konsoli.
+
+ABILITY = Umiejetnosci
+DELAY = Opoznienie
+
+HEALTH = Zycie
+STATS = Statystyki
+MANA = Mana
+MAX = max
+POINTS = punkty
+
+PET = Zwierzak
+PETS = Zwierzeta
+
+CURRENT = Aktualny
+CATEGORY = Kategoria
+
+YES = Tak
+NO = Nie
+
+MOTD = Okienko MOTD
+CONSOLE = Konsola
+
+ACCEPT = Przyjmij
+DECLINE = Odrzuc
+
+AUTHOR = Autor
+SPECIAL_THANKS = Specialne podziekowania dla
+
+NONE = Brak
+NAME = Nazwa
+
+NEXT = Dalej
+BACK = Powrot
+EXIT = Wyjscie
+
+MENU = Menu
+MENU_MAIN = Menu Glowne
+MENU_MAIN_MSHOP = Sklep za Mane
+MENU_MAIN_ADDONS = Dodatki
+MENU_MAIN_QUEST = Dziennik Zadan
+MENU_MAIN_LOOKUP = Informacje o graczach
+MENU_MAIN_SELECT = Wybierz klase
+MENU_MAIN_RESET = Zresetuj statystyki
+MENU_MAIN_HELP = Pomoc
+
+MENU_PARTY_MEMBERS = Czlonkowie
+MENU_PARTY_CREATE = Stworz party
+MENU_PARTY_INVITE = Zapros gracza do party
+MENU_PARTY_KICK = Wyrzuc gracza z party
+MENU_PARTY_DISBAND = Rozwiaz party
+MENU_PARTY_LEAVE = Opusc party
+
+MENU_SELECT_CLASS = Wybierz klase
+
+MENU_STAT_DISTRIBUTION = Przydzial statystyk
+MENU_CONFIRM_RESET = Czy chcesz zresetowac swoje statystki?
+
+MENU_PLAYER_LOOKUP = Informacje o graczach
+MENU_PLAYER_PICK = Wybierz gracza ktory jest dostepny:
+MENU_LOOKUP_PRINT = Informacje o graczu %s zostaly wydrukowane w Twojej konsoli.
+
+HELP_BACK = Wroc do menu pomocy
+BIND_AUTO = Zbinduj przyciski domyslnie
+DEFAULT_BUTTONS_V = Uzyj umiejetnosci
+DEFAULT_BUTTONS_C = Uzyj przedmiot
+BIND_AUTO_TEXT = 'use_ability' i 'use_item' zostaly przydzielone do przyciskow V i C.
+
+ITEM_NAME = Przedmiot
+ITEM_DURABILITY = Wytrzymalosc
+ITEM_CATEGORY = Kategoria
+
+ITEM_DROPPED = Twoj przedmiot zostal wyrzucony. Kucnij nad innym aby go podniesc.
+ITEM_RECEIVED = Zdobyles przedmiot %L (%L). Wytrzymalosc: %i. Wpisz 'przedmioty' aby zobaczyc jaka moc on daje.
+ITEM_NOT_ENOUGH_MANA = Nie masz wystarczajaco many aby zakupic ten przedmiot.
+ITEM_ALREADY_HAVE = Masz juz przedmiot. Wpisz 'wyrzuc' aby wyrzucic swoj aktualny przedmiot.
+ITEM_DONT_HAVE = Nie masz przedmiotu. Wpisz 'mana' aby zakupic jeden, lub podnies go z ziemii.
+ITEM_DUR_RUN_OUT = Wytrzymalosc Twoje przedmiotu skonczyla sie. Wpisz 'mana' aby zakupic inny, albo podnies inny na ziemii.
+
+ITEM_INFO = Informacja o itemie %L zostala wydrukowana w konsoli.
+
+ACCESSNAME_BRONZE = Brazowy
+ACCESSNAME_SILVER = Srebrny
+ACCESSNAME_GOLD = Zloty
+ACCESSNAME_PLATINUM = Platynowy
+
+CATEGORYNAME_COMMON = Zwykly
+CATEGORYNAME_RARE = Rzadki
+CATEGORYNAME_UNIQUE = Unikalny
+
+STATNAME_INTELLIGENCE = Inteligencja
+STATNAME_STAMINA = Sila
+STATNAME_DEXTERITY = Zwinnosc
+STATNAME_AGILITY = Zrecznosc
+STATNAME_REGENERATION = Regeneracja
+
+STATNAME_INT = INT
+STATNAME_STA = SIL
+STATNAME_DEX = ZWI
+STATNAME_AGI = ZRE
+STATNAME_REG = REG
+
+STATDESC_INTELLIGENCE = Zwieksza obrazenia magiczne i redukuje czas rzucania zaklec
+STATDESC_STAMINA = Zwieksza bazowe zycie i ilosc regenerowanego zdrowia
+STATDESC_DEXTERITY = Redukuje obrazenia z wszystkich mozliwych zrodel
+STATDESC_AGILITY = Zwieksza obrazenia z wszystkich zrodel
+STATDESC_REGENERATION = Redukuje czas pomiedzy regeneracjami
+
+STATDESC_INTELLIGENCE_SCALING = Increases magic damage (+%i) and reduces casting time (-%f)
+STATDESC_STAMINA_SCALING = Increases base HP (+%i) and influences regeneration (-%f between intervals)
+STATDESC_DEXTERITY_SCALING = Decreases damage from all sources (-%i damage)
+STATDESC_AGILITY_SCALING = Increases all damage output (+%i extra damage)
+STATDESC_REGENERATION_SCALING = Reduces time between regeneration (-%f between intervals)
+
+COMMAND_MENU = menu
+COMMAND_CLASS = klasa
+COMMAND_CLASSDESC = klasy
+COMMAND_ITEMDESC = przedmioty
+COMMAND_DROPITEM = wyrzuc
+COMMAND_MANA = mana
+COMMAND_STAT = rozdziel
+COMMAND_PLAYERS = gracze
+COMMAND_RESET = reset
+COMMAND_PARTY = party
+COMMAND_GUILD = gildia
+COMMAND_HELP = pomoc
+COMMAND_CREDITS = kredyty
+COMMAND_COMMANDS = komendy
+COMMAND_QUESTLOG = questy
+
+COMMANDLIST_MENU = Otwiera menu glowne
+COMMANDLIST_CLASS = Otwiera menu wyboru klas
+COMMANDLIST_CLASSDESC = Otwiera opisy klas
+COMMANDLIST_ITEAMDESC = Otwiera opisy itemow
+COMMANDLIST_DROPITEM = Wyrzuca Twoj aktualny przedmiot
+COMMANDLIST_MANA = Otwiera sklep za mane
+COMMANDLIST_STAT = Otwiera menu przydzialu punktow
+COMMANDLIST_PLAYERS = Otwiera menu ogladania graczy
+COMMANDLIST_RESET = Restartuje statystyki
+COMMANDLIST_PARTY = Otwiera interfejs party
+COMMANDLIST_GUILD = Otwiera interfejs gildii
+COMMANDLIST_HELP = Otwiera menu pomocy
+COMMANDLIST_CREDITS = Otwiera motd
+COMMANDLIST_COMMANDS = Otwiera menu kredytow
+COMMANDLIST_QUESTLOG = Otwiera dziennik zadan
+COMMANDLIST_PET = Otwiera menu zwierzakow
+
+GAMEPLAY_INFO = Info o Trybie Gry zostalo wydrukowane w Twojej konsoli.
+
+GAMEPLAYHELP_1 = Diablo Mod jest dodatkiem, ktory emuluje klasy i rozszerzenia znane z gry Diablo II.
+GAMEPLAYHELP_2 = Wystepuje glowna rozgrywka z CS 1.6 ale z wieloma ciekawymi dodatkami ~
+GAMEPLAYHELP_3 = Mozesz zdobywac poziomy na roznych klasach, zdobywac wspaniale przedmioty i zwiekszac swoje umiejetnosci bitewne!
+GAMEPLAYHELP_4 = Mozesz podjac sie takze dobrze platnych misji!
+GAMEPLAYHELP_5 = Klasy, Przedmioty i Zadania
+GAMEPLAYHELP_6 = Serwer ma zainstalowanych %i klas (wpisz 'klasy' aby je zobaczyc), %i przedmiotow ('przedmioty') i %i zadan ('questy')!
+GAMEPLAYHELP_7 = Kazda klasa ma swoj wlasny zestaw umiejetnosci, a takze ulepszen. Te skille sa takze ulepszane poprzez rodzielanie punktow statystyk.
+GAMEPLAYHELP_8 = Przedmioty podzielone sa na rozne kategorie ~ 
+GAMEPLAYHELP_9 = Zwykle przedmioty wypadaja z graczy (90% szans, jest gracz nie ma swojego przedmiotu, to zapewne wypadnie z niego ten przedmiot.).
+GAMEPLAYHELP_10 = Rzadkie itemy maja 10%% szans na wypadniecie z gracza. Sa to najsilniejsze przedmioty w grze.
+GAMEPLAYHELP_11 = Itemy Unikalne sa kupowane w sklepie za mane. Sa troche lepsze od zwyklych przedmiotow.
+GAMEPLAYHELP_12 = Wytrzymalosc przedmiotu spada co %i sekund kiedy zyjesz.
+GAMEPLAYHELP_13 = Otworz swoj Dziennik Zadan i zobacz jakies misje musisz jeszcze wykonac!
+GAMEPLAYHELP_14 = Party i System Gildii
+GAMEPLAYHELP_15 = Mozesz zaprosic kilka osob do swojej wlasnej druzyny i dzielic z nimi zdobyte doswiadczenie.
+GAMEPLAYHELP_16 = Mozesz takze stworzyc gildie, aby zdobywac doswiadczenie i kupowac dodatki dostepne tylko dla gildii.
+GAMEPLAYHELP_17 = Zarowno party jak i gildia ma swoj prywatny czat; wpisz '@p/g wiadomosc' aby pisac ze swoja gildia/party.

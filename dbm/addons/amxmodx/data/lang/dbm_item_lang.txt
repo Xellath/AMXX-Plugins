@@ -1,0 +1,161 @@
+[en]
+ITEM_AMPLIFIER_BRONZE_NAME = Bronze Amplifier
+ITEM_AMPLIFIER_BRONZE_DESC = Increases your base damage by 3
+
+ITEM_AMPLIFIER_SILVER_NAME = Silver Amplifier
+ITEM_AMPLIFIER_SILVER_DESC = Increases your base damage by 9
+
+ITEM_AMPLIFIER_GOLD_NAME = Gold Amplifier
+ITEM_AMPLIFIER_GOLD_DESC = Increases your base damage by 6
+
+ITEM_ARMOR_IRON_NAME = Iron Armor
+ITEM_ARMOR_IRON_DESC = Decreases damage taken by 3
+
+ITEM_ARMOR_GODLY_NAME = Godly Armor
+ITEM_ARMOR_GODLY_DESC = Decreases damage taken by 6
+
+ITEM_ARMOR_MITHRIL_NAME = Mithril Armor
+ITEM_ARMOR_MITHRIL_DESC = Decreases damage taken by 9
+
+ITEM_CHAMELEON_NAME = Chameleon
+ITEM_CHAMELEON_DESC = Disguise yourself as the enemy
+
+ITEM_RUBY_NAME = Knife Ruby
+ITEM_RUBY_DESC = Allows you to teleport towards (distance set by how much Intelligence) target location. 3.0 (scales with Intelligence) second cooldown
+
+ITEM_STATBOOST_MINOR_NAME = Minor Stat Boost
+ITEM_STATBOOST_MINOR_DESC = Increases all stats by 5
+
+ITEM_STATBOOST_MAJOR_NAME = Major Stat Boost
+ITEM_STATBOOST_MAJOR_DESC = Increases all stats by 10
+
+ITEM_STATBOOST_RARE_NAME = Super Rare Stat Boost
+ITEM_STATBOOST_RARE_DESC = Increases all stats by 15
+
+ITEM_STALKER_NAME = Stalker
+ITEM_STALKER_DESC = Decreases your current health to 5% of max health, but makes your character invisible
+
+ITEM_SCEPTER_BRONZE_NAME = Bronze Vampiric Scepter
+ITEM_SCEPTER_BRONZE_DESC = Returns 10% of damage done to an enemy and adds it to your healthpool
+
+ITEM_SCEPTER_SILVER_NAME = Silver Vampiric Scepter
+ITEM_SCEPTER_SILVER_DESC = Returns 20% of damage done to an enemy and adds it to your healthpool
+
+ITEM_SCEPTER_GOLD_NAME = Gold Vampiric Scepter
+ITEM_SCEPTER_GOLD_DESC = Returns 15% of damage done to an enemy and adds it to your healthpool
+
+ITEM_RING_BRONZE_NAME = Bronze Sorcerers Ring
+ITEM_RING_BRONZE_DESC = Provides a 20% chance to respawn upon death
+
+ITEM_RING_SILVER_NAME = Silver Sorcerers Ring
+ITEM_RING_SILVER_DESC = Provides a 30% chance to respawn upon death
+
+ITEM_RING_GOLD_NAME = Gold Sorcerers Ring
+ITEM_RING_GOLD_DESC = Provides a 25% chance to respawn upon death
+
+ITEM_ARCHWINGS_RARE_NAME = Arch Angel Wings
+ITEM_ARCHWINGS_RARE_DESC = Imbues you to evolve wings that allow you to defy gravity and shock your opponents with a dreadful stomp
+
+ITEM_ARCHWINGS_UNIQUE_NAME = Small Arch Angel Wings
+ITEM_ARCHWINGS_UNIQUE_DESC = Imbues you to evolve wings that allow you to defy gravity and shock your opponents with a dreadful stomp
+
+ITEM_HELMET_GIANT_NAME = Giant Helmet
+ITEM_HELMET_GIANT_DESC = Provides a 25% chance to avoid headshots
+
+ITEM_HELMET_COLOSSUS_NAME = Colossus Helmet
+ITEM_HELMET_COLOSSUS_DESC = Provides a 50% chance to avoid headshots
+
+ITEM_HELMET_TITAN_NAME = Titan Helmet
+ITEM_HELMET_TITAN_DESC = Provides a 75% chance to avoid headshots
+
+ITEM_GLOVE_BRONZE_NAME = Bronze Glove
+ITEM_GLOVE_BRONZE_DESC = Reload speed increase by 10%
+
+ITEM_GLOVE_SILVER_NAME = Silver Glove
+ITEM_GLOVE_SILVER_DESC = Reload speed increased by 30%
+
+ITEM_GLOVE_GOLD_NAME = Gold Glove
+ITEM_GLOVE_GOLD_DESC = Reload speed increased by 20%
+
+ITEM_NOT_READY = That item is not ready yet!
+
+[pl]
+ITEM_AMPLIFIER_BRONZE_NAME = Brazowy wzmaczniacz
+ITEM_AMPLIFIER_BRONZE_DESC = Wzmacnia Twoje bazowe obrazenia o 3
+
+ITEM_AMPLIFIER_SILVER_NAME = Srebrny wzmaczniacz
+ITEM_AMPLIFIER_SILVER_DESC = Wzmacnia Twojej bazowe obrazenia o 9
+
+ITEM_AMPLIFIER_GOLD_NAME = Zloty wzmaczniacz
+ITEM_AMPLIFIER_GOLD_DESC = Wzmacnia Twojej bazowe obrazenia o 6
+
+ITEM_ARMOR_IRON_NAME = Zelazny pancerz
+ITEM_ARMOR_IRON_DESC = Zmniejsza otrzymywane obrazenia o 3
+
+ITEM_ARMOR_GODLY_NAME = Boski pancerz
+ITEM_ARMOR_GODLY_DESC = Zmniejsza otrzymywane obrazenia o 6
+
+ITEM_ARMOR_MITHRIL_NAME = Mityczny pancerz
+ITEM_ARMOR_MITHRIL_DESC = Zmniejsza otrzymywane obrazenia o 9
+
+ITEM_CHAMELEON_NAME = Kameleon
+ITEM_CHAMELEON_DESC = Zakamufluj sie i wygladaj jak wrog
+
+ITEM_RUBY_NAME = Rubinowy Noz
+ITEM_RUBY_DESC = Pozwala Ci teleportowac we wskazane miejsce (zalezne od INT). 3.0 (zmniejsza sie z przyrostem INT) sekund odnowienia
+
+ITEM_STATBOOST_MINOR_NAME = Maly wzmaczniacz statystyk
+ITEM_STATBOOST_MINOR_DESC = Podnosi wszystkie statystyki o 5
+
+ITEM_STATBOOST_MAJOR_NAME = Duzy wzmaczniacz statystyk
+ITEM_STATBOOST_MAJOR_DESC = Podnosi wszystkie statystyki o 10
+
+ITEM_STATBOOST_RARE_NAME = Potezny wzmaczniacz statystyk
+ITEM_STATBOOST_RARE_DESC = Podnosi wszystkie statystyki o 15
+
+ITEM_STALKER_NAME = Stalker
+ITEM_STALKER_DESC = Zmniejsza Twoje Hp do 5% maksymalnej wartosci, ale czyni Cie kompletnie niewidzialnym
+
+ITEM_SCEPTER_BRONZE_NAME = Brazowy wampiryczny Kostur
+ITEM_SCEPTER_BRONZE_DESC = Zwraca 10% zadanych przez Ciebie obrazen jako zdrowie
+
+ITEM_SCEPTER_SILVER_NAME = Srebrny wampiryczny Kostur
+ITEM_SCEPTER_SILVER_DESC = Zwraca 20% zadanych przez Ciebie obrazen jako zdrowie
+
+ITEM_SCEPTER_GOLD_NAME = Zloty wampiryczny Kostur
+ITEM_SCEPTER_GOLD_DESC = Zwraca 15% zadanych przez Ciebie obrazen jako zdrowie
+
+ITEM_RING_BRONZE_NAME = Brazowy pierscien czarownika
+ITEM_RING_BRONZE_DESC = Sprawa ze masz 20% na odrodzenie sie po smierci
+
+ITEM_RING_SILVER_NAME = Srebrny pierscien czarownika
+ITEM_RING_SILVER_DESC = Sprawa ze masz 30% na odrodzenie sie po smierci
+
+ITEM_RING_GOLD_NAME = Zloty pierscien czarownika
+ITEM_RING_GOLD_DESC = Sprawa ze masz 25% na odrodzenie sie po smierci
+
+ITEM_ARCHWINGS_RARE_NAME = Skrzydla archaniola
+ITEM_ARCHWINGS_RARE_DESC = Nasyca Cie ewolucyjnymi skrzydlami, ktore pozwalaja Ci negowac grawitacje i szokowac wrogow wielkim wstrzasem
+
+ITEM_ARCHWINGS_UNIQUE_NAME = Male skrzydla archaniola
+ITEM_ARCHWINGS_UNIQUE_DESC = Nasyca Cie ewolucyjnymi skrzydlami, ktore pozwalaja Ci negowac grawitacje i szokowac wrogow wielkim wstrzasem
+
+ITEM_HELMET_GIANT_NAME = Helm Giganta
+ITEM_HELMET_GIANT_DESC = Zapewnia 25% szansy na unikniecie headshota
+
+ITEM_HELMET_COLOSSUS_NAME = Helm Kolosa
+ITEM_HELMET_COLOSSUS_DESC = Zapewnia 50% szansy na unikniecie headshota
+
+ITEM_HELMET_TITAN_NAME = Helm Tytana
+ITEM_HELMET_TITAN_DESC = Zapewnia 75% szansy na unikniecie headshota
+
+ITEM_GLOVE_BRONZE_NAME = Brazowe rekawice
+ITEM_GLOVE_BRONZE_DESC = Predkosc przeladowania zwiekszona o 10%
+
+ITEM_GLOVE_SILVER_NAME = Srebrne rekawice
+ITEM_GLOVE_SILVER_DESC = Predkosc przeladowania zwiekszona o 30%
+
+ITEM_GLOVE_GOLD_NAME = Zlote rekawice
+ITEM_GLOVE_GOLD_DESC = Predkosc przeladowania zwiekszona o 20%
+
+ITEM_NOT_READY = Ten przedmiot nie jest jeszcze gotowy!

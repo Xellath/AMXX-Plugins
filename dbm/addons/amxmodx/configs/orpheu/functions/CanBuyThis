@@ -1,0 +1,33 @@
+{
+    "name"      : "CanBuyThis",
+    "library"   : "mod",
+    "arguments" :
+    [
+        {
+            "type"  : "CBasePlayer *",
+            "info"  : "pPlayer"
+        };
+        {
+            "type"  : "int",
+            "info"  : "iWeaponId"
+        }
+    ],
+    "return" :
+    {
+        "type" : "bool"
+    },
+    "identifiers":
+    [
+        {
+            "os"    : "windows",
+            "mod"   : "cstrike",
+            "value" : [0x53,0x8B,0x1D,"*","*","*","*",0x56,0x8B,0x74,"*","*",0x57,0x8B,0xCE,0xE8,"*","*","*","*",0x8B,0x7C,"*","*",0x84,0xC0,0x74,"*",0x83]
+        },
+        {
+            "os"    : "linux",
+            "mod"   : "cstrike",
+            "value" : "CanBuyThis__FP11CBasePlayeri"
+        }
+    ]
+}
+    

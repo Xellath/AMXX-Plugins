@@ -1,0 +1,106 @@
+///////CLASSES//////
+
+Frozen Golem
+
+- He has 1/5 chance to slow down his enemies and make them screen a little blue
+- On knife he is loading frozen bullets. [Works same as BERSERKER!]. Every bullet is freezing oponnents for a half of second
+
+Code can be taken from frostnade. Whole code will fit this class.
+LINK : http://forums.alliedmods.net/showthread.php?t=41126
+
+Dragon Slayer
+
+- He has 1/3 chance to set enemy on fire. After being set on fire enemy is loosing 2hp + [intelligence bonus 15 int = 1hp] each second for 5sec
+- On knife he can use Dragon Breath. It is power similar to Flamethrower. He is starting to emit flames to the place where he is aiming. The breath lasts for 5 sec, and is consuming 5hp [10int = 1 hp more] from target each second
+
+http://forums.alliedmods.net/showthread.php?t=182406
+http://forums.alliedmods.net/showthread.php?t=79792 
+
+[AMAZING CLASS]Swordsman
+
+- The less hp he have the more attack speed with weapons he have
+- On knife he can load knives that he can throw on his opponnents [This was supposed to be a ninja power, but after all it can be power of swordsman]
+Max 5knives multipled with INT
+[You are already doing knives code so it shouldn't be so hard]
+
+ALL OF IT IS PREMIUM SO IT WILL SOLD FOR $$$$ =]
+
+
+
+
+//////ITEMS/////// ~ DONE ~
+
+Colossus Helmet
+[25% chance to avoid headshot attack][BASIC]
+
+Giant Helmet 
+[50% chance to avoid headshot attack][RARE]
+
+Titan Helmet
+[75% chance to avoid headshot attack][UNIQUE]
+
+15 # Gloves
+
+
+Bronze Gloves
+[10% lesser reload time][BASIC]
+
+Silver Gloves
+[25% lesser reload time][RARE]
+
+Gold Gloves
+[35% lesser reload time][UNIQUE]
+
+[Need to have a BAR when you have this item, so You excatly know when You reload]
+
+
+//////MANA SHOP/////
+
+Potion of Immunity [Lame name but I can't think about different xD]
+It is granting You Full durability of item and It is lowering your durability corrosion in item 3 times]
+
+
+///// OTHERS GOOD SHITS /////
+
+
+* Some prints in chat.
+
+It could be fun if there could be printed a message each round/ time to time.
+From connected players the highest lvl have XXXX [LVL : ][CLASS : ]
+And also : A person who completed most ammount of quests is XXX [X/X]
+The strongest guild is XXX with XXX EXP and LVL :
+
+* Tags in chat. ~ DONE ~ 
+
+There should be a TAG
+[Class][Level]NAME : MESSAGE
+
+* EXP FOR 3 BEST PLAYERS
+
+Three best players on map [Counting Kills:Deaths ratio or just ammount of kills] should be rewarded with EXP
+It could be also recorded, so everyone could see it in player lookup.
+
+
+BUGS !_!_!_!
+
+* Chat isn't working [It is working - but you can't see your messagess so it's a annoyance]
+* Bind menu isn't working
+* Error logs
+* Crashes and Lags[When shooting, getting rewarded with XP]
+* Ninja bug [You always have bomb, you can't plant it or do a shit with it]
+* When You plant a bomb you shouldn't get a reward You go XXX XP because your team planted a bomb..
+The bonus You planted the bomb is enought :D
+
+L 03/16/2013 - 18:51:33: [AMXX] Displaying debug trace (plugin "dbm_class_ninja.amxx")
+L 03/16/2013 - 18:51:33: [AMXX] Run time error 4: index out of bounds 
+L 03/16/2013 - 18:51:33: [AMXX]    [0] dbm_class_ninja.sma::client_buy (line 75)
+
+L 03/23/2013 - 11:08:06: [AMXX] Displaying debug trace (plugin "can_player_buy.amxx")
+L 03/23/2013 - 11:08:06: [AMXX] Run time error 10: native error (native "get_pdata_int")
+L 03/23/2013 - 11:08:06: [AMXX] [0] can_player_buy.sma::BuyGunAmmo (line 52)
+
+
+Segmentation fault
+email debug.log to linux@valvesoftware.com
+sob, 23 mar 2013, 11:14:40 CET: Server restart in 10 seconds
+(RoundEnd error appearing a lot)
